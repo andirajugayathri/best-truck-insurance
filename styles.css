@@ -10524,3 +10524,9 @@ h3 {
     font-size: 0.97rem;
     line-height: 1.6;
 }
+@media (max-width: 768px) {
+    .mcv-page section:not(.bt-hero) h2 {
+      font-size: 1.8rem;
+      text-align: center;
+    }
+}

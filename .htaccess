@@ -1,0 +1,33 @@
+Redirect 301 /tow-truck-insurance/ /tow-truck-insurance.html
+Redirect 301 /concrete-truck-insurance/ /concrete-truck-insurance.html
+Redirect 301 /fleet-truck-insurance-service/ /fleet-truck-insurance-service.html
+Redirect 301 /tipper-truck-insurance/ /tipper-truck-insurance.html
+Redirect 301 /prime-mover-truck-insurance/ /prime-mover-truck-insurance.html
+Redirect 301 /tips-to-save-premium/ /tips-to-save-premium.html
+Redirect 301 /best-truck-finance.html /index.html
+Redirect 301 /best-truck-finance/ /best-truck-finance.html
+Redirect 301 /blog/ /blog.html
+Redirect 301 /contact/ /contact.html
+
+Redirect 301 /portfolio-types/artwork/ /index.html
+Redirect 301 /portfolio-types/banner/  /index.html
+Redirect 301 /why-is-truck-insurance-more-expensive/  /blog.html
+Redirect 301 /contact-us/  /contact.html
+Redirect 301 /tipper-truck-insurance-service/  /tipper-truck-insurance.html
+Redirect 301 /tip.html /tips-to-save-premium.html
+
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} \s/index\.html [NC]
+RewriteRule ^index\.html$ https://besttruckinsurance.com.au/ [R=301,L]
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/css
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

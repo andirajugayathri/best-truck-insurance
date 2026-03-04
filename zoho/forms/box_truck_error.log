@@ -1,0 +1,2 @@
+[09-Feb-2026 06:00:54 America/Chicago] ZOHO ERROR (202): {"data":[{"code":"INVALID_DATA","details":{"maximum_length":120,"api_name":"Type_of_Coverage_required"},"message":"invalid data","status":"error"}]}
+[09-Feb-2026 06:08:36 America/Chicago] ZOHO ERROR (202): {"data":[{"code":"INVALID_DATA","details":{"maximum_length":120,"api_name":"Type_of_Coverage_required"},"message":"invalid data","status":"error"}]}

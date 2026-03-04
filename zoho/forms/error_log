@@ -1,0 +1,8 @@
+[24-Jan-2026 06:59:00 America/Chicago] PHP Warning:  Undefined variable $userEmail in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/concrete_truck.php on line 178
+[24-Jan-2026 06:59:00 America/Chicago] Database Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'occupation' in 'field list'
+[24-Jan-2026 07:00:37 America/Chicago] PHP Warning:  Undefined variable $userEmail in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/concrete_truck.php on line 175
+[24-Jan-2026 07:00:37 America/Chicago] Database Error: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+[24-Jan-2026 07:02:46 America/Chicago] PHP Warning:  Undefined variable $userEmail in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/concrete_truck.php on line 179
+[24-Jan-2026 07:14:11 America/Chicago] PHP Warning:  Undefined array key "um_Insured" in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/fleet_truck.php on line 191
+[24-Jan-2026 07:43:09 America/Chicago] PHP Warning:  Undefined variable $userEmail in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/concrete_truck.php on line 179
+[24-Jan-2026 07:43:56 America/Chicago] PHP Warning:  Undefined variable $userEmail in /home3/ilinksm3/besttruckinsurance.com.au/zoho/forms/concrete_truck.php on line 179

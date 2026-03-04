@@ -10,7 +10,8 @@ body {
 }
 
 body {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 /* ---------------------- */
@@ -335,7 +336,8 @@ body {
 #welcome {
   font-family: Inter;
   font-weight: 600;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   line-height: 100%;
   letter-spacing: 0%;
   color: black;
@@ -485,7 +487,8 @@ body {
 /* Icon style */
 .custom-carousel-control-prev i,
 .custom-carousel-control-next i {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-left: -18px;
 }
 
@@ -536,7 +539,8 @@ body {
 
   .custom-carousel-control-prev-mobile i,
   .custom-carousel-control-next-mobile i {
-    font-size: 18px;;
+    font-size: 18px;
+    ;
   }
 }
 
@@ -936,7 +940,8 @@ body {
   transition: background 0.2s;
   border-bottom: 1px solid #f1f1f1;
   color: #333;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 0;
   /* Override Bootstrap label margin */
 }
@@ -1307,7 +1312,8 @@ body {
 .experience-badge .text {
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   font-weight: 600;
 }
 
@@ -1320,7 +1326,8 @@ body {
   border: none;
   padding: 10px;
   border-radius: 20px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   font-weight: 600;
   margin-top: 30px;
 }
@@ -1998,7 +2005,8 @@ height: 284px; */
 .service-title p {
   font-family: Poppins;
   font-weight: 400;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
@@ -2235,7 +2243,8 @@ height: 284px; */
 }
 
 .feature-text {
-  color: #121212;;
+  color: #121212;
+  ;
   text-align: left;
 }
 
@@ -2345,9 +2354,11 @@ height: 284px; */
 }
 
 .coverage-details {
-  color: #121212;;
+  color: #121212;
+  ;
   text-align: center;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .box-column {
@@ -2444,7 +2455,8 @@ height: 284px; */
   }
 
   .ct-faq-question {
-    font-size: 18px;;
+    font-size: 18px;
+    ;
   }
 
   .ct-faq-toggle {
@@ -2964,10 +2976,12 @@ height: 284px; */
   position: relative;
   padding-left: 35px;
   margin-bottom: 20px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   /* User requested 18px */
   line-height: 1.6;
-  color: #121212;;
+  color: #121212;
+  ;
 }
 
 .dt-arrow-list li::before {
@@ -3097,7 +3111,8 @@ height: 284px; */
 /* Typography */
 .coverage-item .card-title {
   color: #013469;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -3332,10 +3347,6 @@ height: 284px; */
   border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
-.ft-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-}
 
 .ft-icon-box {
   width: 80px;
@@ -3405,7 +3416,8 @@ height: 284px; */
 
 .ft-card.ft-card-coverage .ft-detail-list li {
   margin-bottom: 12px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 /* List Styling */
@@ -3511,7 +3523,8 @@ height: 284px; */
   position: relative;
   padding-left: 24px;
   margin-bottom: 8px;
-  color: #121212;;
+  color: #121212;
+  ;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -3585,7 +3598,8 @@ height: 284px; */
 
 .ft-check-item {
   font-size: 18px;
-  color: #121212;;
+  color: #121212;
+  ;
   display: flex;
   align-items: flex-start;
 }
@@ -3743,7 +3757,8 @@ height: 284px; */
 .ft-quote-header p {
   margin: 5px 0 0;
   opacity: 0.8;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .ft-quote-body {
@@ -3757,7 +3772,8 @@ height: 284px; */
   border-radius: 8px;
   width: 100%;
   margin-bottom: 15px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -3781,7 +3797,8 @@ height: 284px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #12171a;
   border: 1px solid transparent;
 }
@@ -4446,7 +4463,8 @@ height: 284px; */
 
 .dt-card.dt-card-coverage .dt-detail-list li {
   margin-bottom: 12px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 /* List Styling */
@@ -4552,7 +4570,8 @@ height: 284px; */
   position: relative;
   padding-left: 24px;
   margin-bottom: 8px;
-  color: #121212;;
+  color: #121212;
+  ;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -4626,7 +4645,8 @@ height: 284px; */
 
 .dt-check-item {
   font-size: 18px;
-  color: #121212;;
+  color: #121212;
+  ;
   display: flex;
   align-items: flex-start;
 }
@@ -4709,7 +4729,8 @@ height: 284px; */
   position: relative;
   padding-left: 35px;
   color: #12171a;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .dt-split-list li::before {
@@ -4761,7 +4782,8 @@ height: 284px; */
 .dt-quote-header p {
   margin: 5px 0 0;
   opacity: 0.8;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .dt-quote-body {
@@ -4775,7 +4797,8 @@ height: 284px; */
   border-radius: 8px;
   width: 100%;
   margin-bottom: 15px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
@@ -4799,7 +4822,8 @@ height: 284px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #12171a;
   border: 1px solid transparent;
 }
@@ -5105,7 +5129,8 @@ height: 284px; */
 }
 
 .dt-grid-text {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #12171a;
   line-height: 1.6;
   margin: 0;
@@ -5353,7 +5378,7 @@ height: 284px; */
 }
 
 .ti-titles p {
- font-size: 18px !important;
+  font-size: 18px !important;
   color: #000 !important;
 }
 
@@ -5445,7 +5470,8 @@ height: 284px; */
 
 
 .ti-hero-content p {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   /* max-width: 800px; */
   /* margin: 0 auto 30px; */
   opacity: 0.95;
@@ -5597,7 +5623,8 @@ height: 284px; */
 
 .ti-check-item {
   font-size: 18px;
-  color: #121212;;
+  color: #121212;
+  ;
   display: flex;
   align-items: flex-start;
 }
@@ -5678,7 +5705,8 @@ height: 284px; */
   margin-bottom: 15px;
   position: relative;
   padding-left: 35px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .ti-split-list li::before {
@@ -5831,7 +5859,8 @@ height: 284px; */
 
 .ti-carousel-control-prev i,
 .ti-carousel-control-next i {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 @media (max-width: 768px) {
@@ -5959,7 +5988,8 @@ height: 284px; */
 .ti-cov-content h4 {
   font-size: 1rem;
   font-weight: 700;
-  color: #121212;;
+  color: #121212;
+  ;
   margin-bottom: 15px;
 }
 
@@ -5997,7 +6027,8 @@ height: 284px; */
   padding-left: 25px;
   /* margin-bottom: 10px; */
   color: #000;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .ti-cov-list li::before {
@@ -6097,7 +6128,8 @@ h4,
 }
 
 p {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
 }
 
 .bt-container {
@@ -7250,7 +7282,8 @@ h3 {
 }
 
 .bt-mandatory-list li {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -7966,14 +7999,16 @@ h3 {
 
 .pli-reality-desc {
   color: #12171a;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 0;
 }
 
 .pli-exclusion-item {
   color: #000 !important;
   display: flex;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   align-items: center;
   margin-bottom: 12px;
 }
@@ -8156,7 +8191,8 @@ h3 {
   padding: 20px;
   border: 1px solid #eee !important;
   vertical-align: middle;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #000;
 }
 
@@ -8253,7 +8289,8 @@ h3 {
 }
 
 .pli-summary-text {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #000;
   margin-bottom: 1.5rem;
 }
@@ -8424,7 +8461,7 @@ h3 {
 
   .bt-mandatory-text p,
   .bt-mandatory-list li {
-    font-size: 18px!important;
+    font-size: 18px !important;
   }
 }
 
@@ -8479,7 +8516,8 @@ h3 {
 }
 
 .bti-text-block {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   line-height: 1.8;
 }
 
@@ -8513,7 +8551,8 @@ h3 {
 }
 
 .bti-mandatory-list li {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -8618,7 +8657,8 @@ h3 {
 
 .bti-reality-desc {
   color: #12171a;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 0;
 }
 
@@ -8746,7 +8786,8 @@ h3 {
   display: flex;
   align-items: baseline;
   gap: 5px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 15px;
 }
 
@@ -9018,7 +9059,8 @@ h3 {
 
 /* Summary Section */
 .bti-summary-text {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #000;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -9200,7 +9242,8 @@ h3 {
 }
 
 .tib-text-block {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   line-height: 1.8;
 }
 
@@ -9234,7 +9277,8 @@ h3 {
 }
 
 .tib-mandatory-list li {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -9339,7 +9383,8 @@ h3 {
 
 .tib-reality-desc {
   color: #12171a;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 0;
 }
 
@@ -9467,7 +9512,8 @@ h3 {
   display: flex;
   align-items: baseline;
   gap: 5px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin-bottom: 15px;
 }
 
@@ -9495,7 +9541,8 @@ h3 {
 .tib-info-text {
   line-height: 1.6;
   color: #000;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   margin: 0;
 }
 
@@ -9748,7 +9795,8 @@ h3 {
 
 /* Summary Section */
 .tib-summary-text {
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #000;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -9989,7 +10037,8 @@ h3 {
   position: relative;
   padding-left: 25px;
   margin-bottom: 8px;
-  font-size: 18px;;
+  font-size: 18px;
+  ;
   color: #12171a;
 }
 
@@ -10046,36 +10095,20 @@ h3 {
   }
 }
 
-/* ============================================
-   MOBILE CATERING VAN INSURANCE PAGE
-   Color palette matching trucking pages:
-   Primary (navy):  #003672
-   Accent (orange): #FF6B00 / #C65100
-   Body text:       #333
-   Light text:      #12171a
-   ============================================ */
+/* MOBILE CATERING VAN INSURANCE PAGE */
 
-/* --- Section headings only (excludes header, footer & banner) --- */
 .mcv-page section:not(.bt-hero) h2,
 .mcv-page section:not(.bt-hero) .section-heading {
   color: #C65100;
   font-weight: 700;
 }
 
-/* --- Section h2 size (excludes header, footer & banner) --- */
 .mcv-page section:not(.bt-hero) h2 {
   font-size: 2.5rem;
   line-height: 1.3;
 }
 
-/* --- Body / paragraph text inside sections only (excludes banner) --- */
-.mcv-page section:not(.bt-hero) p,
-.mcv-page section:not(.bt-hero) li {
-  /* color: #333; */
-  line-height: 1.8;
-}
 
-/* --- What's Covered cards --- */
 .mcv-page .coverage-card {
   border: 1px solid #e8e8e8;
   border-radius: 12px;
@@ -10181,6 +10214,41 @@ h3 {
   line-height: 1.6;
 }
 
+.mcv-list-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border: 1px solid #f0f0f0;
+  transition: transform 0.2s;
+}
+
+.mcv-list-item i {
+  color: var(--primary);
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.mcv-title-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mcv-title-box h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--ft-dark);
+  margin-bottom: 15px;
+}
+
+.mcv-title-box p {
+  color: 12171a;
+  font-size: 1.15rem;
+}
+
 /* --- Trust / Why Us section --- */
 .mcv-page .trust-section {
   background: #f0f5ff;
@@ -10212,17 +10280,8 @@ h3 {
 }
 
 /* --- FAQ accordion overrides --- */
-.mcv-page .faq-section .accordion-button {
-  /* color: #003672; */
-  font-weight: 600;
-  background: #fff;
-}
 
-.mcv-page .faq-section .accordion-button:not(.collapsed) {
-  color: #FF6B00;
-  background: #fff8f4;
-  box-shadow: none;
-}
+
 
 .mcv-page .faq-section .accordion-button::after {
   filter: none;
@@ -10268,265 +10327,691 @@ h3 {
     margin-bottom: 1rem;
   }
 }
+
 /* --- MCV: Global icon primary colour (sections only, not hero/nav/footer) --- */
 
 
 /* --- MCV: Badge bar (below hero) --- */
-.mcv-badge-bar { background: #003672; padding: 18px 0; }
-.mcv-badge-bar span { color: #fff; font-weight: 700; font-size: 1rem; }
-.mcv-badge-bar i { color: #C65100; margin-right: 0.5rem; }
+.mcv-badge-bar {
+  background: #003672;
+  padding: 18px 0;
+}
+
+.mcv-badge-bar span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.mcv-badge-bar i {
+  color: #C65100;
+  margin-right: 0.5rem;
+}
 
 /* --- MCV: What Is section --- */
-.mcv-what-is-img { border-radius: 20px; }
-.mcv-what-is p { font-size: 1.1rem; line-height: 1.8; color: #12171a; }
-.mcv-infobox { background: #f8f9fa; border-left: 4px solid #C65100; padding: 1.25rem; border-radius: 6px; }
-.mcv-infobox .mcv-infobox-title { font-weight: 700; color: #C65100; font-size: 1.2rem; margin-bottom: 0.5rem; }
-.mcv-infobox .mcv-infobox-text { color: #12171a; font-size: 1.1rem; margin: 0; }
+.mcv-what-is {
+  padding: 60px 0;
+}
+
+.mcv-what-is-img {
+  border-radius: 20px;
+}
+
+.mcv-what-is p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #12171a;
+}
+
+.mcv-infobox {
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  border-left: 4px solid #C65100;
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.mcv-infobox .mcv-infobox-title {
+  font-weight: 700;
+  color: #C65100;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.mcv-infobox .mcv-infobox-text {
+  color: #12171a;
+  font-size: 1.1rem;
+  margin: 0;
+}
 
 /* --- MCV: Why Specialised section --- */
-.mcv-why-bg { background-color: #f8f9fa; }
-.mcv-why-intro p { font-size: 1.25rem; color: #12171a; font-weight: 500; }
-.mcv-check-card { border-left: 4px solid #C65100; transition: transform 0.2s; }
-.mcv-check-card:hover { transform: translateY(-2px); }
-.mcv-check-card i { color: #C65100; font-size: 1.25rem; }
-.mcv-check-card span { font-weight: 500; color: #121212;; font-size: 18px; }
-.mcv-highlight-block { background: linear-gradient(135deg, #C65100 0%, #a44300 100%); border-radius: 1rem; padding: 1.5rem; }
-.mcv-highlight-block i.fas { color: #fff; font-size: 2.2rem; }
-.mcv-highlight-block p { font-size: 18px;; line-height: 1.8; color: #fff; }
-.mcv-highlight-block .mcv-highlight-divider { border-top: 1px solid rgba(255,255,255,0.2); margin-top: 1rem; padding-top: 1rem; }
-.mcv-highlight-block .mcv-highlight-divider i { color: #fff; font-size: 1.5rem; }
-.mcv-highlight-block .mcv-highlight-divider p { font-weight: 700; color: #fff; font-size: 18px;; letter-spacing: 0.5px; margin: 0; }
+.mcv-why-bg {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.mcv-why-intro p {
+  font-size: 1.25rem;
+  color: #12171a;
+  font-weight: 500;
+}
+
+.mcv-check-card i {
+  color: #C65100;
+  font-size: 1.25rem;
+}
+
+.mcv-check-card span {
+  font-weight: 500;
+  color: #121212;
+  ;
+  font-size: 18px;
+}
+
+.mcv-highlight-block {
+  background: linear-gradient(135deg, #C65100 0%, #a44300 100%);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.mcv-highlight-block i.fas {
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.mcv-highlight-block p {
+  font-size: 18px;
+  ;
+  line-height: 1.8;
+  color: #fff;
+}
+
+.mcv-highlight-block .mcv-highlight-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.mcv-highlight-block .mcv-highlight-divider i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.mcv-highlight-block .mcv-highlight-divider p {
+  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
+  ;
+  letter-spacing: 0.5px;
+  margin: 0;
+}
 
 /* --- MCV: Coverage cards h4 --- */
-.mcv-page .ft-card h4 { color: #1a1a1a; }
-.mcv-page .ft-card i { color: #C65100; }
-.mcv-card-note { color: #003672; border-left: 3px solid #C65100; padding-left: 12px; font-size: 0.95rem; }
-.mcv-bi-card { max-width: 600px; width: 100%; }
-.mcv-bi-card i { color: #C65100; font-size: 2rem; }
+.mcv-page .ft-card h4 {
+  color: #1a1a1a;
+}
+
+.mcv-page .ft-card i {
+  color: #C65100;
+}
+
+.mcv-card-note {
+  border-left: 3px solid #C65100;
+  font-size: 18px;
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: auto;
+}
+
+.mcv-bi-card {
+  max-width: 600px;
+  width: 100%;
+}
+
+.mcv-bi-card i {
+  color: #C65100;
+  font-size: 2rem;
+}
+
+.cover-list {
+  color: #12171a;
+  font-size: 18px;
+}
 
 /* --- MCV: Cost section --- */
-.mcv-cost-bg { background: linear-gradient(135deg, #f8f9fa 0%, #eef2f7 100%); }
-.mcv-pill { background: #fff; border: 2px solid #e0e8f0; }
-.mcv-pill i { color: #C65100; }
-.mcv-pill span { font-weight: 600; color: #333; font-size: 0.95rem; }
-.mcv-price-left { background: linear-gradient(135deg, #003672 0%, #0055a5 100%); }
-.mcv-price-left i { color: rgba(255,255,255,0.4); font-size: 3rem; }
-.mcv-price-label { font-size: 1rem; letter-spacing: 1px; text-transform: uppercase; opacity: 0.85; }
-.mcv-price-value { font-size: 3.5rem; line-height: 1.1; }
-.mcv-price-sub { opacity: 0.8; font-size: 0.9rem; }
-.mcv-price-right { background: #fff; }
-.mcv-price-right h5 { color: #003672; }
-.mcv-price-right h5 span { color: #C65100; }
-
-/* --- MCV: Why Choose Us section --- */
-.mcv-trust-bg { background: #fff; }
-.mcv-trust-img { object-fit: cover; max-height: 480px; }
-.mcv-trust-intro { color: #12171a; font-size: 18px; line-height: 1.8; }
-.mcv-trust-focus { color: #003672; font-size: 18px; }
-.mcv-trust-list i { color: #C65100; font-size: 1.1rem; }
-.mcv-trust-list span { color: #121212;; font-size: 1rem; }
-.mcv-trust-note { background: #f8f9fa; border-left: 4px solid #C65100; padding: 1rem; border-radius: 6px; }
-.mcv-trust-note p { color: #333; font-size: 1rem; line-height: 1.7; margin: 0; }
-
-/* --- MCV: Claims section --- */
-.mcv-claim-card { border: 1px solid #e8edf3; box-shadow: 0 2px 12px rgba(0,0,0,0.05); transition: transform 0.2s; }
-.mcv-claim-card:hover { transform: translateY(-4px); }
-.mcv-claim-icon-wrap { width: 70px; height: 70px; background: #fff4ee; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; }
-.mcv-claim-icon-wrap i { color: #C65100; font-size: 1.8rem; }
-.mcv-claim-card p { color: #222; font-size: 1rem; margin: 0; font-weight: 700; }
-.mcv-claims-note { background: #fff; border-left: 4px solid #C65100; box-shadow: 0 4px 12px rgba(0,0,0,0.06); padding: 1.25rem; border-radius: 6px; }
-.mcv-claims-note p { color: #333; font-size: 1rem; line-height: 1.7; margin: 0; }
-
-/* --- MCV: Steps section --- */
-.mcv-steps-bg { background: #fff; }
-.mcv-step-card { background: #fff4ee; border: 1px solid #ffe0cc; border-radius: 14px; padding: 1.5rem; position: relative; overflow: hidden; height: 100%; }
-.mcv-step-num { position: absolute; top: -10px; right: 10px; font-size: 5rem; font-weight: 900; color: rgba(255,107,0,0.1); line-height: 1; user-select: none; }
-.mcv-step-icon { width: 52px; height: 52px; background: #C65100; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; }
-.mcv-step-icon i { color: #fff; font-size: 1.3rem; }
-.mcv-step-card p { color: #222; font-weight: 600; font-size: 0.97rem; margin: 0; line-height: 1.6; }
-/* Cost Section */
 .mcv-cost-bg {
-    background: linear-gradient(135deg, #f8f9fa 0%, #eef2f7 100%);
+  background: linear-gradient(135deg, #f8f9fa 0%, #eef2f7 100%);
 }
 
 .mcv-pill {
-    background: #fff;
-    border: 2px solid #e0e8f0;
+  background: #fff;
+  border: 2px solid #e0e8f0;
 }
 
 .mcv-pill i {
-    color: var(--primary) !important;
+  color: #C65100;
 }
 
 .mcv-pill span {
-    font-weight: 600;
-    color: #333;
-    font-size: 0.95rem;
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
 }
 
 .mcv-price-left {
-    background: linear-gradient(135deg, #003672 0%, #0055a5 100%);
+  background: linear-gradient(135deg, #003672 0%, #0055a5 100%);
 }
 
 .mcv-price-left i {
-    color: rgba(255, 255, 255, 0.4) !important;
-    font-size: 3rem;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 3rem;
 }
 
 .mcv-price-label {
-    font-size: 1rem;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    opacity: 0.85;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.85;
 }
 
 .mcv-price-value {
-    font-size: 3.5rem;
-    line-height: 1.1;
+  font-size: 3.5rem;
+  line-height: 1.1;
 }
 
 .mcv-price-sub {
-    opacity: .8;
-    font-size: 0.9rem;
+  opacity: 0.8;
+  font-size: 0.9rem;
 }
 
 .mcv-price-right {
-    background: #fff;
+  background: #fff;
 }
 
 .mcv-price-right h5 {
-    color: #003672;
+  color: #003672;
+}
+
+.mcv-price-right h5 span {
+  color: #C65100;
+}
+
+/* --- MCV: Why Choose Us section --- */
+.mcv-trust-bg {
+  background: #fff;
+}
+
+.mcv-trust-img {
+  object-fit: cover;
+  max-height: 480px;
+}
+
+.mcv-trust-intro {
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.mcv-trust-focus {
+  color: #003672;
+  font-size: 18px;
+}
+
+.mcv-trust-list i {
+  color: #C65100;
+  font-size: 1.1rem;
+}
+
+.mcv-trust-list span {
+  color: #121212;
+  ;
+  font-size: 1rem;
+}
+
+.mcv-trust-note {
+  background: #f8f9fa;
+  border-left: 4px solid #C65100;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.mcv-trust-note p {
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* --- MCV: Claims section --- */
+.mcv-claim-card {
+  border: 1px solid #e8edf3;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.mcv-claim-card:hover {
+  transform: translateY(-4px);
+}
+
+.mcv-claim-icon-wrap {
+  width: 70px;
+  height: 70px;
+  background: #fff4ee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.mcv-claim-icon-wrap i {
+  color: #C65100;
+  font-size: 1.8rem;
+}
+
+.mcv-claim-card p {
+  color: #222;
+  font-size: 1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.mcv-claims-note {
+  background: #fff;
+  border-left: 4px solid #C65100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.mcv-claims-note p {
+  line-height: 1.7;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+/* --- MCV: Steps section --- */
+.mcv-steps-bg {
+  background: #fff;
+}
+
+.mcv-step-card {
+  background: #fff4ee;
+  border: 1px solid #ffe0cc;
+  border-radius: 14px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.mcv-step-num {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(255, 107, 0, 0.1);
+  line-height: 1;
+  user-select: none;
+}
+
+.mcv-step-icon {
+  width: 52px;
+  height: 52px;
+  background: #C65100;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.mcv-step-icon i {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.mcv-step-card p {
+  color: #222;
+  font-weight: 600;
+  font-size: 0.97rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Cost Section */
+.mcv-cost-bg {
+  background: linear-gradient(135deg, #f8f9fa 0%, #eef2f7 100%);
+}
+
+.mcv-pill {
+  background: #fff;
+  border: 2px solid #e0e8f0;
+}
+
+.mcv-pill i {
+  color: var(--primary) !important;
+}
+
+.mcv-pill span {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+.mcv-price-left {
+  background: linear-gradient(135deg, #003672 0%, #0055a5 100%);
+}
+
+.mcv-price-left i {
+  color: rgba(255, 255, 255, 0.4) !important;
+  font-size: 3rem;
+}
+
+.mcv-price-label {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.mcv-price-value {
+  font-size: 3.5rem;
+  line-height: 1.1;
+}
+
+.mcv-price-sub {
+  opacity: .8;
+  font-size: 0.9rem;
+}
+
+.mcv-price-right {
+  background: #fff;
+}
+
+.mcv-price-right h5 {
+  color: #003672;
 }
 
 .mcv-price-right span {
-    color: var(--primary);
+  color: var(--primary);
 }
 
 /* Why Choose Us Section */
 .mcv-trust-bg {
-    background: #fff;
+  background: #fff;
 }
 
 .mcv-trust-intro {
-    color: #12171a;
-    font-size: 18px;
-    line-height: 1.8;
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 .mcv-trust-focus {
-    color: #003672;
-    font-size: 18px;
+  color: #003672;
+  font-size: 18px;
 }
 
 .mcv-trust-list i {
-    color: var(--primary) !important;
-    font-size: 1.1rem;
+  color: var(--primary) !important;
+  font-size: 1.1rem;
 }
 
 .mcv-trust-list span {
-    color: #121212;;
-    font-size: 1rem;
+  color: #121212;
+  ;
+  font-size: 1rem;
 }
 
 .mcv-trust-note {
-    background: #f8f9fa;
-    border-left: 4px solid var(--primary);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .mcv-trust-note p {
-    color: #333;
-    font-size: 1rem;
-    line-height: 1.7;
-    margin-bottom: 0;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
 .mcv-trust-img {
-    object-fit: cover;
-    max-height: 480px;
+  object-fit: cover;
+  max-height: 480px;
 }
 
 /* Common Claims Section */
 .mcv-claim-card {
-    border: 1px solid #e8edf3;
-    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
-    transition: transform 0.2s;
+  border: 1px solid #e8edf3;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
 }
 
 .mcv-claim-icon-wrap {
-    width: 70px;
-    height: 70px;
-    background: #fff4ee;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1.5rem auto;
+  width: 70px;
+  height: 70px;
+  background: #fff4ee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
 }
 
 .mcv-claim-icon-wrap i {
-    color: var(--primary) !important;
-    font-size: 1.8rem;
+  color: var(--primary) !important;
+  font-size: 1.8rem;
 }
 
 .mcv-claim-card p {
-    color: #222;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 0;
+  color: #222;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
 .mcv-claims-note {
-    background: #fff;
-    border-left: 4px solid var(--primary);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+  background: #fff;
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
 }
 
 .mcv-claims-note p {
-    color: #333;
-    font-size: 1rem;
-    line-height: 1.7;
-    margin-bottom: 0;
+  line-height: 1.7;
+  margin-bottom: 0;
 }
 
-/* How to Get Cover Section */
-.mcv-step-card {
-    background: #fff4ee;
-    border: 1px solid #ffe0cc;
+/* How to Get Cover Section — Reference Style */
+.mcv-steps-section {
+  padding: 60px 0;
 }
 
-.mcv-step-num {
-    top: -10px;
-    right: 10px;
-    font-size: 5rem;
-    font-weight: 900;
-    color: rgba(198, 81, 0, 0.1);
-    line-height: 1;
-    user-select: none;
+.mcv-steps-subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-top: 0.5rem;
 }
 
-.mcv-step-icon {
-    width: 52px;
-    height: 52px;
-    background: var(--primary);
+.mcv-step-card-new {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
 }
 
-.mcv-step-icon i {
-    color: #fff !important;
-    font-size: 1.3rem;
+.mcv-step-icon-new {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem !important;
 }
 
-.mcv-step-text {
-    color: #222;
-    font-size: 0.97rem;
-    line-height: 1.6;
+.mcv-step-icon-new i {
+  font-size: 3rem;
+  color: var(--primary);
 }
+
+.mcv-step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.mcv-step-desc {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
 @media (max-width: 768px) {
-    .mcv-page section:not(.bt-hero) h2 {
-      font-size: 1.8rem;
-      text-align: center;
-    }
+  .mcv-step-card-new {
+    padding: 2rem !important;
+  }
+
+  .mcv-step-icon-new i {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .mcv-page section:not(.bt-hero) h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+/* --- Mobile Catering Van Icons --- */
+.mcv-hero-icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.mcv-hero-icon-circle i {
+  font-size: 10px;
+  line-height: 1;
+  display: block;
+}
+
+.mcv-list-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--primary);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* --- MCV Covered Cards Icon Box --- */
+.mcv-card-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #fff4ec;
+  color: var(--primary);
+  border-radius: 50%;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+/* --- MCV Cost Section Redesign (Reference 2) --- */
+.mcv-cost-section {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.mcv-cost-title {
+  color: #c65100;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.mcv-cost-subtitle {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.mcv-cost-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.mcv-cost-check {
+  width: 24px;
+  height: 24px;
+  background-color: #c65100;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.mcv-cost-item span {
+  font-size: 18px;
+  color: #12171a;
+  line-height: 1.4;
+}
+
+.mcv-cost-summary-callout {
+  border: 1.5px dashed #c65100;
+  background-color: #fff8f4;
+  padding: 25px 40px;
+  border-radius: 15px;
+}
+
+.mcv-cost-summary-callout p {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .mcv-cost-factors-row .col-md-4 {
+    padding-right: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .mcv-cost-section {
+    padding: 60px 0;
+  }
+
+  .mcv-cost-title {
+    font-size: 26px;
+  }
+
+  .mcv-cost-summary-callout {
+    padding: 20px;
+  }
 }

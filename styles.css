@@ -11228,6 +11228,7 @@ h3 {
   }
   .fti-page section:not(.bt-hero) h2 {
     font-size: 2rem;
+    text-align: center;
   }
   .fti-hero-points span, .mcv-hero-points span{
     font-size: 14px;

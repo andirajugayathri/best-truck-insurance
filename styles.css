@@ -120,7 +120,7 @@ body {
 .dropdown-item {
   padding: 0.7rem 1.5rem !important;
   font-weight: 700 !important;
-  color: #333 !important;
+  color: #12171a !important;
   border-left: 3px solid transparent !important;
   transition: all 0.2s ease !important;
   font-size: 12px;
@@ -761,7 +761,7 @@ body {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #333;
+  color: #12171a;
 }
 
 .form-label .required {
@@ -885,7 +885,7 @@ body {
 
 /* When selections are made, change color to standard text */
 .ft-select-trigger.has-value {
-  color: #333;
+  color: #12171a;
 }
 
 .ft-select-trigger i {
@@ -939,7 +939,7 @@ body {
   cursor: pointer;
   transition: background 0.2s;
   border-bottom: 1px solid #f1f1f1;
-  color: #333;
+  color: #12171a;
   font-size: 18px;
   ;
   margin-bottom: 0;
@@ -1035,7 +1035,7 @@ body {
 }
 
 .truck-insurance-info p {
-  color: #333333;
+  color: #12171a;
   font-size: 20px;
   line-height: 1.7;
   margin-bottom: 12px;
@@ -1439,7 +1439,7 @@ body {
   border-radius: 15px;
   background-color: transparent;
   /* Transparent to allow split background */
-  color: #333;
+  color: #12171a;
   text-align: center;
   overflow: hidden;
   /* Ensure no overflow issues */
@@ -2910,7 +2910,7 @@ height: 284px; */
 .benefits-heading {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #333;
+  color: #12171a;
   margin-bottom: 2rem;
   position: relative;
   text-align: center;
@@ -3774,7 +3774,7 @@ height: 284px; */
   margin-bottom: 15px;
   font-size: 18px;
   ;
-  color: #333;
+  color: #12171a;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -4799,7 +4799,7 @@ height: 284px; */
   margin-bottom: 15px;
   font-size: 18px;
   ;
-  color: #333;
+  color: #12171a;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -5180,7 +5180,7 @@ height: 284px; */
 
 .dt-type-card .type-title {
   font-weight: 700;
-  color: #333;
+  color: #12171a;
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -5968,7 +5968,7 @@ height: 284px; */
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0;
-  color: #333;
+  color: #12171a;
 }
 
 .ti-cov-badge {
@@ -7015,7 +7015,7 @@ h3 {
 }
 
 .bt-footer-bottom {
-  border-top: 1px solid #333;
+  border-top: 1px solid #12171a;
   padding-top: 20px;
   text-align: center;
   color: #666;
@@ -9931,7 +9931,7 @@ h3 {
 
 /* Custom Tabs (Moved from inline styles) */
 .tib-custom-tabs .nav-link {
-  color: #333 !important;
+  color: #12171a !important;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   margin-bottom: 0.5rem;
@@ -10164,7 +10164,7 @@ h3 {
   gap: 0.75rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid #f0f0f0;
-  color: #333;
+  color: #12171a;
   font-weight: 500;
 }
 
@@ -10263,7 +10263,7 @@ h3 {
 }
 
 .mcv-page .trust-section .trust-point {
-  color: #333;
+  color: #12171a;
   font-size: 0.97rem;
 }
 
@@ -10292,7 +10292,7 @@ h3 {
 }
 
 .mcv-page .faq-section .accordion-body {
-  color: #333;
+  color: #12171a;
   font-size: 0.97rem;
   line-height: 1.75;
   background: #fff;
@@ -10494,7 +10494,7 @@ h3 {
 
 .mcv-pill span {
   font-weight: 600;
-  color: #333;
+  color: #12171a;
   font-size: 0.95rem;
 }
 
@@ -10576,7 +10576,7 @@ h3 {
 }
 
 .mcv-trust-note p {
-  color: #333;
+  color: #12171a;
   font-size: 1rem;
   line-height: 1.7;
   margin: 0;
@@ -10697,7 +10697,7 @@ h3 {
 
 .mcv-pill span {
   font-weight: 600;
-  color: #333;
+  color: #12171a;
   font-size: 0.95rem;
 }
 
@@ -10774,7 +10774,7 @@ h3 {
 }
 
 .mcv-trust-note p {
-  color: #333;
+  color: #12171a;
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 0;
@@ -10952,7 +10952,7 @@ h3 {
 }
 
 .mcv-cost-subtitle {
-  color: #333;
+  color: #12171a;
   font-size: 18px;
   margin-bottom: 40px;
 }
@@ -11013,5 +11013,571 @@ h3 {
 
   .mcv-cost-summary-callout {
     padding: 20px;
+  }
+}
+
+/* FOOD TRAILER INSURANCE PAGE */
+
+.fti-page section:not(.bt-hero) h2,
+.fti-page section:not(.bt-hero) .section-heading {
+  color: #C65100;
+  font-weight: 700;
+}
+
+.fti-page section:not(.bt-hero) h2 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+
+.fti-page .coverage-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  background: #fff;
+}
+
+.fti-page .coverage-card .card-icon {
+  width: 52px;
+  height: 52px;
+  background: #fff4ec;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.fti-page .coverage-card .card-icon i {
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.fti-page .coverage-card h3 {
+  color: #12171a;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.fti-page .coverage-card p {
+  color: #12171a;
+  font-size: 18px;
+  margin: 0;
+}
+
+/* --- Step cards (how to get cover) --- */
+.fti-page .step-card {
+  background: #fff4ee;
+  border: 1px solid #ffe0cc;
+  border-radius: 14px;
+  padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+.fti-section {
+  padding: 60px 0!important;
+}
+
+.fti-page .step-card .step-num {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgba(255, 107, 0, 0.1);
+  line-height: 1;
+  user-select: none;
+}
+
+.fti-page .step-card .step-icon {
+  width: 52px;
+  height: 52px;
+  background: #FF6B00;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.fti-page .step-card .step-icon i {
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.fti-page .step-card p {
+  color: #222;
+  font-weight: 600;
+  font-size: 0.97rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.fti-list-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  border: 1px solid #f0f0f0;
+  transition: transform 0.2s;
+}
+
+.fti-list-item i {
+  color: var(--primary);
+  margin-right: 15px;
+  font-size: 1.2rem;
+}
+
+.fti-title-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.fti-title-box h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--ft-dark);
+  margin-bottom: 15px;
+}
+
+.fti-title-box p {
+  color: 12171a;
+  font-size: 1.15rem;
+}
+
+/* --- Trust / Why Us section --- */
+.fti-page .trust-section {
+  background: #f0f5ff;
+}
+
+.fti-page .trust-section h2 {
+  color: #003672;
+}
+
+.fti-page .trust-section .trust-point i {
+  color: #FF6B00;
+}
+
+.fti-page .trust-section .trust-point {
+  color: #12171a;
+  font-size: 0.97rem;
+}
+
+/* --- Orange accent highlight box --- */
+.fti-page .fti-highlight-box {
+  background: linear-gradient(135deg, #FF6B00, #C65100);
+  color: #fff;
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+/* --- FAQ accordion overrides --- */
+
+.fti-page .faq-section .accordion-button::after {
+  filter: none;
+}
+
+.fti-page .faq-section .accordion-button:not(.collapsed)::after {
+  filter: none;
+}
+
+.fti-page .faq-section .accordion-body {
+  color: #12171a;
+  font-size: 0.97rem;
+  line-height: 1.75;
+  background: #fff;
+}
+
+.fti-page .faq-section h2 {
+  color: #003672;
+  font-weight: 700;
+}
+
+/* --- Section dividers --- */
+.fti-page .fti-divider {
+  height: 3px;
+  background: linear-gradient(90deg, #003672, #FF6B00);
+  border: none;
+  border-radius: 2px;
+  margin: 2rem auto;
+  width: 80px;
+}
+
+/* --- Responsive adjustments --- */
+@media (max-width: 768px) {
+  .fti-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .fti-page .bt-hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .fti-page .step-card {
+    margin-bottom: 1rem;
+  }
+  .fti-page section:not(.bt-hero) h2 {
+    font-size: 2rem;
+  }
+  .fti-hero-points span, .mcv-hero-points span{
+    font-size: 14px;
+    align-items: center;
+    justify-content: center!important;
+  }
+}
+
+/* --- FTI Icons --- */
+
+.fti-hero-icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.fti-hero-icon-circle i {
+  font-size: 13px;
+  line-height: 1;
+  display: block;
+}
+
+.fti-list-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: var(--primary);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* --- FTI Covered Cards Icon Box --- */
+.fti-card-icon-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background-color: #fff4ec;
+  color: var(--primary);
+  border-radius: 50%;
+  font-size: 26px;
+  flex-shrink: 0;
+}
+
+/* --- FTI What Is section --- */
+.fti-what-is {
+  padding: 60px 0;
+}
+
+.fti-what-is-img {
+  border-radius: 20px;
+}
+
+.fti-what-is p {
+  font-size: 18px;
+  color: #12171a;
+}
+
+.fti-infobox {
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  border-left: 4px solid #C65100;
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.fti-infobox-title {
+  font-weight: 700;
+  color: #C65100;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.fti-infobox-text {
+  color: #12171a;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* --- FTI Protect Your Business Section --- */
+.fti-protect-bg {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.fti-protect-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e8edf3;
+  text-align: center;
+}
+
+.fti-protect-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fff4ee;
+  color: #C65100;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.fti-protect-card h3 {
+  color: #12171a;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.fti-protect-card p {
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- FTI Cost Section Redesign --- */
+.fti-cost-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.fti-cost-title {
+  color: #c65100;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.fti-cost-subtitle {
+  color: #12171a;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.fti-cost-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.fti-cost-check {
+  width: 24px;
+  height: 24px;
+  background-color: #c65100;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.fti-cost-item span {
+  font-size: 18px;
+  color: #12171a;
+  line-height: 1.4;
+}
+
+.fti-cost-summary-callout {
+  border: 1.5px dashed #c65100;
+  background-color: #fff8f4;
+  padding: 25px 40px;
+  border-radius: 15px;
+}
+
+.fti-cost-summary-callout p {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .fti-cost-factors-row .col-md-4 {
+    padding-right: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .fti-cost-section {
+    padding: 60px 0;
+  }
+
+  .fti-cost-title {
+    font-size: 26px;
+  }
+
+  .fti-cost-summary-callout {
+    padding: 20px;
+  }
+}
+
+/* --- FTI Claims section --- */
+.fti-claim-card {
+  border: 1px solid #e8edf3;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.fti-claim-card:hover {
+  transform: translateY(-4px);
+}
+
+.fti-claim-icon-wrap {
+  width: 70px;
+  height: 70px;
+  background: #fff4ee;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem auto;
+}
+
+.fti-claim-icon-wrap i {
+  color: var(--primary) !important;
+  font-size: 1.8rem;
+}
+
+.fti-claim-card p {
+  color: #222;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.fti-claims-note {
+  background: #fff;
+  border-left: 4px solid var(--primary);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.fti-claims-note p {
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* --- FTI Trust --- */
+.fti-trust-bg {
+  background: #fff;
+}
+
+.fti-trust-img {
+  object-fit: cover;
+  max-height: auto;
+}
+
+.fti-trust-intro {
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.fti-trust-focus {
+  color: #003672;
+  font-size: 18px;
+}
+
+.fti-trust-list i {
+  color: var(--primary) !important;
+  font-size: 1.1rem;
+}
+
+.fti-trust-list span {
+  color: #121212;
+  font-size: 18px;
+}
+
+.fti-trust-note {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.fti-trust-note p {
+  color: #12171a;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* --- FTI Steps --- */
+
+.fti-steps-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.fti-step-card-new {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.fti-step-icon-new {
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem !important;
+}
+
+.fti-step-icon-new i {
+  font-size: 3rem;
+  color: var(--primary);
+}
+
+.fti-step-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+}
+
+.fti-step-desc {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .fti-step-card-new {
+    padding: 2rem !important;
+  }
+
+  .fti-step-icon-new i {
+    font-size: 2.5rem;
   }
 }

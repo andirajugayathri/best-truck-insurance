@@ -657,6 +657,34 @@ body {
   border-bottom-left-radius: 30px;
 }
 
+/* Mobile View - Centered Desktop Style */
+@media (max-width: 768px) {
+  .rqst-box {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    top: auto !important;
+    right: auto !important;
+    width: 250px !important;
+    height: 50px !important;
+    rotate: 0deg !important;
+    border-radius: 20px 20px 0 0 !important;
+    z-index: 9999 !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: #003672 !important;
+    border: 1px solid black !important;
+    border-bottom: none !important;
+    font-size: 20px !important;
+    float: none !important;
+    color: white !important;
+    font-weight: 600 !important;
+  }
+}
+
 /* form */
 .quote-section {
   margin: 3rem auto;

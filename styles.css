@@ -11963,11 +11963,11 @@ h3 {
 
   .tti-trust-image-side {
     order: -1;
-    min-height: 500px;
+    min-height: auto;
   }
 
   .tti-trust-content-side {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
 
   .tti-page section:not(.bt-hero) h2 {
@@ -11982,7 +11982,7 @@ h3 {
 
 /* --- TTI Steps Section --- */
 .tti-steps-section {
-  padding: 100px 0;
+  padding: 60px 0;
   background-color: #fff;
 }
 

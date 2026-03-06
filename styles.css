@@ -3270,7 +3270,7 @@ height: 284px; */
 }
 
 .ft-section {
-  padding: 80px 0;
+  padding: 60px 0;
   background-color: var(--ft-white);
 }
 
@@ -3721,7 +3721,7 @@ height: 284px; */
 
 /* Quick Quote Form Section */
 .ft-form-section {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/images/food-truck-night.webp");
@@ -4747,7 +4747,7 @@ height: 284px; */
 
 /* Quick Quote Form Section */
 .dt-form-section {
-  padding: 80px 0;
+  padding: 60px 0;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/images/dump-truck-form-bg.webp");
@@ -10940,7 +10940,7 @@ h3 {
 
 /* --- MCV Cost Section Redesign (Reference 2) --- */
 .mcv-cost-section {
-  padding: 80px 0;
+  padding: 60px 0;
   background-color: #fff;
 }
 
@@ -11034,7 +11034,7 @@ h3 {
   border: 1px solid #e8e8e8;
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
   background: #fff;
 }
 
@@ -11077,8 +11077,9 @@ h3 {
   overflow: hidden;
   height: 100%;
 }
+
 .fti-section {
-  padding: 60px 0!important;
+  padding: 60px 0 !important;
 }
 
 .fti-page .step-card .step-num {
@@ -11226,14 +11227,17 @@ h3 {
   .fti-page .step-card {
     margin-bottom: 1rem;
   }
+
   .fti-page section:not(.bt-hero) h2 {
     font-size: 2rem;
     text-align: center;
   }
-  .fti-hero-points span, .mcv-hero-points span{
+
+  .fti-hero-points span,
+  .mcv-hero-points span {
     font-size: 14px;
     align-items: center;
-    justify-content: center!important;
+    justify-content: center !important;
   }
 }
 
@@ -11581,4 +11585,638 @@ h3 {
   .fti-step-icon-new i {
     font-size: 2.5rem;
   }
+}
+
+/* ==========================================================================
+   TRACTOR TRAILER TRUCK INSURANCE (TTI) STYLES
+   ========================================================================== */
+
+.tti-page {
+  font-family: 'DM Sans', sans-serif;
+  color: #1a1a1a;
+  background-color: #fff;
+}
+
+.tti-text-orange {
+  color: #C65100 !important;
+}
+
+.tti-page section:not(.bt-hero) h2 {
+  color: #C65100;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 1.3;
+}
+
+.tti-section {
+  padding: 80px 0 !important;
+}
+
+/* --- TTI What Is Section --- */
+.tti-what-is {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.tti-what-is-img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.tti-tailored-list i {
+  color: #C65100;
+  font-size: 1.1rem;
+}
+
+.tti-tailored-list li {
+  font-size: 18px;
+}
+
+.tti-infobox {
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  border-left: 5px solid #C65100;
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.tti-infobox-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #12171a;
+  margin: 0;
+}
+
+/* --- TTI Protect/Mandatory Section --- */
+.tti-protect-bg {
+  padding: 60px 0;
+}
+
+.tti-protect-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.04);
+  height: 100%;
+}
+
+.tti-protect-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #fff4ee;
+  border-radius: 50%;
+  color: #C65100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.tti-protect-card h3 {
+  color: #1a1a1a;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.tti-protect-card p {
+  color: #12171a;
+  font-size: 17px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* --- TTI Coverage Section --- */
+.tti-coverage-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+
+.tti-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-bottom: 12px;
+}
+
+.tti-card-icon {
+  width: 55px;
+  height: 55px;
+  background-color: #fff4ee;
+  color: #C65100;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.tti-coverage-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0;
+  line-height: 1.8;
+  display: inline-block;
+  border-bottom: 2px solid #f1f1f1;
+  padding-bottom: 4px;
+}
+
+.tti-coverage-card p {
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+}
+
+.tti-coverage-list li {
+  font-size: 18px;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tti-coverage-list li i {
+  color: #C65100;
+  font-size: 16px;
+}
+
+@media (max-width: 575px) {
+  .tti-coverage-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 575px) {
+  .tti-coverage-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* --- TTI Cost Section --- */
+.tti-cost-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.tti-cost-title {
+  color: #C65100;
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tti-cost-subtitle {
+  color: #4a5568;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+
+.tti-cost-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.tti-cost-check {
+  width: 24px;
+  height: 24px;
+  background-color: #C65100;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+/* --- TTI Cost Table --- */
+.tti-cost-table-container {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.tti-cost-table {
+  margin-bottom: 0;
+  background-color: #fff;
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  border: none !important;
+}
+
+.tti-cost-table thead {
+  background-color: #fff9f5;
+  color: var(--primary);
+  text-align: center;
+}
+
+.tti-cost-table tbody {
+  text-align: center;
+}
+
+.tti-cost-table th {
+  padding: 15px 20px !important;
+  font-weight: 700;
+  color: var(--primary) !important;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+}
+
+.tti-cost-table td {
+  padding: 12px 20px !important;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd !important;
+  border-right: 1px solid #ddd !important;
+  font-size: 18px;
+}
+
+.tti-cost-table th:last-child,
+.tti-cost-table td:last-child {
+  border-right: none !important;
+}
+
+.tti-cost-table tr:last-child td {
+  border-bottom: none !important;
+}
+
+
+.tti-cost-item strong {
+  font-size: 1.1rem;
+  color: #1a202c;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.tti-cost-item span {
+  font-size: 16px;
+  color: #718096;
+  line-height: 1.5;
+}
+
+/* --- TTI Trust Section (Split Layout) --- */
+.tti-trust-section {
+  display: flex;
+  min-height: 800px;
+  background-color: #fdf8f4;
+  flex-wrap: wrap;
+}
+
+.tti-trust-content-side {
+  flex: 1.2;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tti-trust-image-side {
+  flex: 1;
+  min-height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tti-trust-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tti-trust-intro-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #C65100;
+  margin-bottom: 20px;
+}
+
+.tti-trust-intro-text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+  max-width: 650px;
+}
+
+.tti-trust-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.tti-trust-feature {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.tti-trust-feature-icon {
+  font-size: 1.5rem;
+  color: #C65100;
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.tti-trust-feature-content h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+.tti-trust-feature-content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.tti-trust-cta {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-left: 4px solid #C65100;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  max-width: 600px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 1400px) {
+  .tti-trust-content-side {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 991px) {
+  .tti-trust-section {
+    flex-direction: column;
+  }
+
+  .tti-trust-image-side {
+    order: -1;
+    min-height: 500px;
+  }
+
+  .tti-trust-content-side {
+    padding: 80px 20px;
+  }
+
+  .tti-page section:not(.bt-hero) h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .tti-cost-table td {
+    font-size: 16px;
+  }
+}
+
+/* --- TTI Steps Section --- */
+.tti-steps-section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.tti-step-icon i {
+  color: #C65100;
+}
+
+.tti-step-card {
+  transition: all 0.3s ease;
+  border: 1px solid #edf2f7 !important;
+}
+
+@media (max-width: 991px) {
+
+  .tti-section,
+  .tti-what-is,
+  .tti-protect-bg,
+  .tti-cost-section,
+  .tti-trust-bg,
+  .tti-steps-section {
+    padding: 60px 0 !important;
+  }
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+/* ==========================================================================
+   Header & Footer Styles (Consolidated from Fragments)
+   ========================================================================== */
+
+/* Header Styles */
+.offcanvas {
+  max-width: 300px;
+  background-color: #ff8c00;
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #ffa333;
+}
+
+.offcanvas-body .nav-link {
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #ffa333;
+}
+
+.offcanvas-body .dropdown-item {
+  color: black !important;
+}
+
+.offcanvas-body .dropdown-item:hover {
+  background-color: #ffb347;
+}
+
+.offcanvas-body .dropdown-menu {
+  position: static;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  padding-left: 1rem;
+  background-color: #ff9919;
+}
+
+.hamburger-toggle {
+  cursor: pointer;
+  padding: 10px 15px;
+  background: transparent;
+  border: none;
+  color: #ff8c00;
+}
+
+@media (min-width: 992px) {
+  .mobile-logo {
+    display: none;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  .hamburger-toggle {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .mobile-logo {
+    display: block;
+    max-height: 45px;
+  }
+
+  .main-nav {
+    background-color: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 8px 0 !important;
+  }
+
+  .navbar-brand {
+    padding: 5px 0;
+  }
+}
+
+.fa-chevron-down {
+  color: white;
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+}
+
+.get-quote-btn {
+  background-color: #003672;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.dropdown-menu img {
+  width: 15%;
+  margin-right: 2px;
+}
+
+@media (max-width: 576px) {
+  .dropdown-menu img {
+    width: 20px !important;
+    margin-right: 2px;
+  }
+}
+
+.desktop-nav-link {
+  color: #000 !important;
+  font-weight: 600 !important;
+  font-size: 17px !important;
+}
+
+.btn-desktop-quote {
+  background-color: #C65100 !important;
+  color: white !important;
+  font-weight: 700 !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  border-radius: 50px !important;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-desktop-quote:hover {
+  background-color: #003672 !important;
+  color: white !important;
+}
+
+/* Footer Styles */
+.truckfooter-galaxy {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+.neptune-brandbox {
+  height: 106px;
+  width: 284px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.jupiter-logoframe img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+  background: #fff;
+  padding: 15px 30px;
+}
+
+.truckfooter-galaxy a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.truckfooter-galaxy a:hover {
+  color: var(--primary);
+}
+
+.saturn-socialnet a {
+  color: var(--primary);
+  margin-right: 15px;
+  font-size: 22px;
+  transition: color 0.3s ease;
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.saturn-socialnet a:hover {
+  color: var(--primary);
+}
+
+.pluto-copyright {
+  background-color: var(--primary);
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.venus-contactblock i {
+  margin-right: 10px;
+  background-color: var(--primary);
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+}
+
+.mercury-divider {
+  width: 70px;
+  background-color: var(--primary);
+  height: 2px;
+}
+
+.mars-linklist i {
+  color: var(--primary);
+}
+
+.mars-linklist {
+  line-height: 35px;
 }

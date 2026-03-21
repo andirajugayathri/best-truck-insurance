@@ -4,14 +4,12 @@
   font-family: "Poppins", sans-serif;
 }
 
-html,
-body {
+html, body {
   overflow-x: hidden;
 }
 
 body {
   font-size: 18px;
-  ;
 }
 
 /* ---------------------- */
@@ -24,7 +22,6 @@ body {
   justify-content: center;
   padding: 15px;
 }
-
 .isValid {
   border-color: yellow;
 }
@@ -44,7 +41,6 @@ body {
   align-items: center;
   font-size: 16px;
 }
-
 .space {
   display: inline-block;
   width: 20px;
@@ -70,7 +66,6 @@ body {
 .social-icons i {
   width: 17px;
 }
-
 .social-icons i:hover {
   color: #ff7200;
 }
@@ -84,7 +79,7 @@ body {
 .nav-link {
   position: relative;
   font-weight: 500;
-  padding: 15px !important;
+  padding: 15px!important;
   transition: color 0.3s ease;
   color: white;
 }
@@ -110,7 +105,6 @@ body {
     opacity: 0;
     transform: translateY(10px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -120,7 +114,7 @@ body {
 .dropdown-item {
   padding: 0.7rem 1.5rem !important;
   font-weight: 700 !important;
-  color: #12171a !important;
+  color: #333 !important;
   border-left: 3px solid transparent !important;
   transition: all 0.2s ease !important;
   font-size: 12px;
@@ -152,7 +146,6 @@ body {
   position: relative;
   border-left: 3px solid #003672;
 }
-
 .line {
   display: flex;
   gap: 4px;
@@ -172,7 +165,6 @@ body {
 .dropdown-toggle::after {
   transition: transform 0.3s ease;
 }
-
 .carousel-indicators {
   bottom: -47px !important;
 }
@@ -226,32 +218,26 @@ body {
 /* Mobile styles */
 @media (max-width: 991.98px) {
   .logoo-container {
-    display: none;
-    /* Hide the desktop logo container on mobile */
+    display: none; /* Hide the desktop logo container on mobile */
   }
-
   .hover-overlay p {
     font-size: 9px !important;
   }
-
   .card-title {
     font-size: 13px !important;
   }
 
   .mobile-logo {
-    display: block;
-    /* Show mobile logo */
+    display: block; /* Show mobile logo */
   }
 
   .main-nav {
-    background-color: transparent !important;
-    /* Remove background for mobile nav */
+    background-color: transparent !important; /* Remove background for mobile nav */
     padding: 10px;
   }
 
   .navbar-collapse {
-    background-color: #ff7200;
-    /* Keep the dropdown background orange */
+    background-color: #ff7200; /* Keep the dropdown background orange */
     padding: 10px;
     border-radius: 0 0 5px 5px;
     margin-top: 10px;
@@ -268,8 +254,7 @@ body {
 
   .navbar-toggler {
     border: none;
-    color: #ff7200;
-    /* Orange color for the hamburger */
+    color: #ff7200; /* Orange color for the hamburger */
     background-color: white;
     border-radius: 4px;
   }
@@ -283,8 +268,7 @@ body {
   }
 
   .navbar-brand {
-    margin-right: auto;
-    /* Push the logo to the left */
+    margin-right: auto; /* Push the logo to the left */
   }
 
   /* Mobile active link styles */
@@ -332,25 +316,21 @@ body {
 .hero-text {
   height: 40vh;
 }
-
 #welcome {
   font-family: Inter;
   font-weight: 600;
   font-size: 18px;
-  ;
   line-height: 100%;
   letter-spacing: 0%;
   color: black;
   text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   display: inline;
 }
-
 .welcome {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .hero-title h1 {
   font-family: Inter;
   font-weight: 700;
@@ -359,7 +339,6 @@ body {
   letter-spacing: 0%;
   color: #013469;
 }
-
 .hero-title span {
   font-family: Inter;
   font-weight: 700;
@@ -368,11 +347,9 @@ body {
   letter-spacing: 0%;
   color: #013469;
 }
-
 .dis-inflx {
   display: inline-flex;
 }
-
 .hero-title h4 {
   font-family: Poppins;
   font-weight: 700;
@@ -381,7 +358,6 @@ body {
   letter-spacing: 0%;
   color: black;
 }
-
 .left-btn {
   width: 163px;
   height: 40px;
@@ -390,7 +366,6 @@ body {
   padding: 10px;
   background-color: #ff7200 !important;
 }
-
 .right-btn {
   width: 163px !important;
   height: 40px !important;
@@ -399,19 +374,16 @@ body {
   padding: 10px;
   background-color: white !important;
   color: #ff7200 !important;
-  border: 1px solid #ff7200 !important;
+  border: 1px solid #ff7200 !important ;
 }
-
 .left-btn:hover {
   background-color: white !important;
   color: #ff7200 !important;
 }
-
 .right-btn:hover {
   background-color: #ff7200 !important;
   color: white !important;
 }
-
 .custom-partners-section {
   background-color: #fff;
   border-radius: 20px;
@@ -488,18 +460,15 @@ body {
 .custom-carousel-control-prev i,
 .custom-carousel-control-next i {
   font-size: 18px;
-  ;
   margin-left: -18px;
 }
 
 /* Mobile controls (below carousel) */
 @media (max-width: 767.98px) {
-
   .custom-carousel-control-prev,
   .custom-carousel-control-next {
     display: none !important;
   }
-
   /*.custom-card {*/
   /*  width: 155px !important;*/
   /*  height: 176px !important;*/
@@ -508,7 +477,6 @@ body {
   input {
     width: 220px !important;
   }
-
   .left-btn {
     display: none !important;
   }
@@ -540,10 +508,8 @@ body {
   .custom-carousel-control-prev-mobile i,
   .custom-carousel-control-next-mobile i {
     font-size: 18px;
-    ;
   }
 }
-
 .fq {
   font-weight: 700 !important;
   font-size: 20px;
@@ -555,26 +521,19 @@ body {
 @media (max-width: 768px) {
   .hero {
     background-image: url("assets/images/btm-5.webp");
-    background-position: center;
-    /* Adjust if image crops weirdly */
-    height: auto;
-    /* Allows height to adapt to content if needed */
-    padding: 2rem 1rem;
-    /* Optional: keeps content from touching edges */
+    background-position: center; /* Adjust if image crops weirdly */
+    height: auto; /* Allows height to adapt to content if needed */
+    padding: 2rem 1rem; /* Optional: keeps content from touching edges */
   }
-
   .top-nav {
     display: none;
   }
-
   .hero-title h1 {
     font-size: 29px;
   }
-
   .hero-title span {
     font-size: 29px;
   }
-
   .hero-title h4 {
     font-size: 20px;
     color: #ff7200 !important;
@@ -584,11 +543,9 @@ body {
     background-color: transparent;
     margin-top: 15%;
   }
-
   .hero-title {
     margin-top: -12% !important;
   }
-
   .right-btn {
     background-color: white !important;
     color: #ff7200 !important;
@@ -604,7 +561,6 @@ body {
   .hero-title {
     margin-top: -28% !important;
   }
-
   .rounded-circle {
     margin-left: 20px !important;
   }
@@ -616,22 +572,18 @@ body {
     padding: 15px;
     height: 120px;
   }
-
   .custom-carousel-control-prev,
   .custom-carousel-control-next {
     width: 30px;
     height: 30px;
   }
-
   .custom-carousel-control-prev {
     left: -15px;
   }
-
   .custom-carousel-control-next {
     right: -15px;
   }
 }
-
 .rqst-box {
   position: fixed;
   right: 0;
@@ -656,34 +608,6 @@ body {
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
 }
-
-/* Mobile View - Centered Desktop Style */
-/* @media (max-width: 768px) {
-  .rqst-box {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    top: auto !important;
-    right: auto !important;
-    width: 100% !important;
-    height: 50px !important;
-    rotate: 0deg !important;
-    border-radius: 20px 20px 0 0 !important;
-    z-index: 9999 !important;
-    margin: 0 !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-    background-color: #003672 !important;
-    border: 1px solid black !important;
-    border-bottom: none !important;
-    font-size: 20px !important;
-    float: none !important;
-    color: white !important;
-    font-weight: 600 !important;
-  }
-} */
 
 /* form */
 .quote-section {
@@ -774,7 +698,6 @@ body {
     opacity: 0;
     transform: translateY(10px);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
@@ -789,7 +712,7 @@ body {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: #12171a;
+  color: #333;
 }
 
 .form-label .required {
@@ -861,10 +784,12 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg,
-      transparent,
-      rgba(255, 255, 255, 0.2),
-      transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.2),
+    transparent
+  );
   transition: all 0.4s ease;
   z-index: -1;
 }
@@ -895,8 +820,7 @@ body {
   padding: 12px 15px;
   font-size: 1rem;
   font-weight: 400;
-  color: #6c757d;
-  /* Placeholder color like Bootstrap */
+  color: #6c757d; /* Placeholder color like Bootstrap */
   background: #ffffff;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -913,7 +837,7 @@ body {
 
 /* When selections are made, change color to standard text */
 .ft-select-trigger.has-value {
-  color: #12171a;
+  color: #333;
 }
 
 .ft-select-trigger i {
@@ -967,11 +891,9 @@ body {
   cursor: pointer;
   transition: background 0.2s;
   border-bottom: 1px solid #f1f1f1;
-  color: #12171a;
+  color: #333;
   font-size: 18px;
-  ;
-  margin-bottom: 0;
-  /* Override Bootstrap label margin */
+  margin-bottom: 0; /* Override Bootstrap label margin */
 }
 
 .ft-option:last-child {
@@ -1025,14 +947,12 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.04);
   gap: 22px;
 }
-
 .truck-insurance-info .info-media {
   flex: 0 0 120px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .truck-insurance-info .info-icon {
   width: 100px;
   height: 100px;
@@ -1043,32 +963,26 @@ body {
   justify-content: center;
   box-shadow: 0 8px 20px rgba(255, 114, 0, 0.12);
 }
-
 .truck-insurance-info .info-icon img {
   width: 52px;
   height: auto;
   filter: brightness(0) invert(1);
 }
-
 .truck-insurance-info .info-content {
   flex: 1 1 auto;
 }
-
 .truck-insurance-info h2 {
-  color: var(--primary);
-  /* dark blue used for main headings */
+  color: var(--primary); /* dark blue used for main headings */
   font-size: 30px;
   margin-bottom: 12px;
   font-weight: 700;
 }
-
 .truck-insurance-info p {
-  color: #12171a;
+  color: #333333;
   font-size: 20px;
   line-height: 1.7;
   margin-bottom: 12px;
 }
-
 .truck-insurance-info .info-cta {
   display: inline-block;
   margin-top: 6px;
@@ -1080,7 +994,6 @@ body {
   text-decoration: none;
   transition: all 0.22s ease;
 }
-
 .truck-insurance-info .info-cta:hover {
   background: #e05e00;
   transform: translateY(-2px);
@@ -1091,27 +1004,22 @@ body {
     padding: 28px 12px;
     margin-bottom: -80px;
   }
-
   .truck-insurance-info p {
     font-size: 16px;
   }
-
   .truck-insurance-info h2 {
     font-size: 24px;
     text-align: left !important;
   }
-
   .truck-insurance-info .info-card {
     padding: 18px;
     flex-direction: column;
     text-align: center;
   }
-
   .truck-insurance-info .info-media {
     margin-bottom: 12px;
   }
 }
-
 @media (max-width: 768px) {
   .quote-heading {
     font-size: 2rem;
@@ -1178,7 +1086,6 @@ body {
   border-radius: 0;
   padding: 0.75rem 1rem;
 }
-
 .btn-orange {
   /* background-color: #FF7200 !important; */
   width: 212px !important;
@@ -1196,7 +1103,6 @@ body {
     padding: 1.5rem !important;
   }
 }
-
 .truck-insurance-quote {
   padding: 3rem 0;
 }
@@ -1341,7 +1247,6 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 28px;
   font-size: 18px;
-  ;
   font-weight: 600;
 }
 
@@ -1355,7 +1260,6 @@ body {
   padding: 10px;
   border-radius: 20px;
   font-size: 18px;
-  ;
   font-weight: 600;
   margin-top: 30px;
 }
@@ -1363,12 +1267,10 @@ body {
 .imgcontainer {
   margin-top: 20px;
 }
-
 .placeholder-card {
   border: 2px solid #ff7200 !important;
   /* padding: 20px; */
 }
-
 .content-container {
   border-radius: 15px;
   margin-top: -10px;
@@ -1380,7 +1282,6 @@ body {
   height: 576px;
   border-radius: 30px;
 }
-
 .hover-overlay p {
   font-size: 12px;
 }
@@ -1393,7 +1294,6 @@ body {
   margin-right: -180px;
   margin-top: 10px !important;
 }
-
 .truck {
   position: absolute;
   top: -40px;
@@ -1413,11 +1313,9 @@ body {
 
   position: relative;
 }
-
 .truck-and-trailer {
   color: #013469;
 }
-
 .bglight {
   margin-left: -70px;
   z-index: 1;
@@ -1428,11 +1326,13 @@ body {
 }
 
 .best-section {
-  background: linear-gradient(to bottom,
-      #1a3c6d 0%,
-      #1a3c6d 70%,
-      white 50%,
-      white 100%);
+  background: linear-gradient(
+    to bottom,
+    #1a3c6d 0%,
+    #1a3c6d 70%,
+    white 50%,
+    white 100%
+  );
   color: white;
   padding: 50px 0;
 }
@@ -1443,13 +1343,11 @@ body {
   text-align: center;
   margin-bottom: 30px;
 }
-
 .best-section ul {
   list-style: none;
   padding: 0;
   margin-bottom: 40px;
 }
-
 .best-section ul li {
   margin-bottom: 15px;
   position: relative;
@@ -1459,50 +1357,41 @@ body {
 .carousel-item {
   padding: 20px;
 }
-
 .card {
   width: 351px;
   height: 496px;
   border: 2px solid #ff7200;
   border-radius: 15px;
-  background-color: transparent;
-  /* Transparent to allow split background */
-  color: #12171a;
+  background-color: transparent; /* Transparent to allow split background */
+  color: #333;
   text-align: center;
-  overflow: hidden;
-  /* Ensure no overflow issues */
+  overflow: hidden; /* Ensure no overflow issues */
 }
-
 /* .card .image-container {
     background-color: #1a3c6d; /* Dark blue for the image portion 
     padding: 20px;
 } */
 .card .content-container {
-  background-color: white;
-  /* White for the text/button portion */
+  background-color: white; /* White for the text/button portion */
   padding: 20px;
   min-height: 270px;
 }
-
 .card img {
   width: 100%;
   height: 243px;
   object-fit: cover;
   /* border-radius: 10px; */
 }
-
 .card h3 {
   font-size: 1.25rem;
   margin: 15px 0;
   color: #ff7200;
 }
-
 .card p {
   font-size: 16px;
   color: #666;
   margin-top: 12px;
 }
-
 .btn-read-more {
   /* background-color; */
   color: white;
@@ -1512,7 +1401,6 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
-
 .btn-read-more:hover {
   background-color: #e69520;
 }
@@ -1523,10 +1411,8 @@ body {
     display: flex;
     justify-content: center;
   }
-
   .carousel-item .col-md-4 {
-    flex: 0 0 33.3333%;
-    /* 3 cards in a row */
+    flex: 0 0 33.3333%; /* 3 cards in a row */
     max-width: 33.3333%;
   }
 }
@@ -1536,45 +1422,35 @@ body {
   .card {
     width: 300px;
   }
-
   .best-section ul li {
     font-size: 0.9rem;
   }
-
   .card img {
     height: 150px;
   }
-
   .card h3 {
     font-size: 1rem;
   }
-
   .carousel-item .row {
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
   }
-
   .carousel-item .col-md-4 {
-    flex: 0 0 100%;
-    /* 1 card per slide */
+    flex: 0 0 100%; /* 1 card per slide */
     max-width: 100%;
   }
-
   .box {
     width: 80% !important;
     margin-left: 14%;
   }
-
   .experience-badge {
     margin-left: -13%;
   }
-
   .mars-linklist {
     margin-left: -6% !important;
   }
 }
-
 .hero-title {
   margin-top: 20%;
 }
@@ -1583,7 +1459,6 @@ body {
   margin-top: 20px;
   width: 480px;
 }
-
 /* 
 why choose us */
 .choose-us-section {
@@ -1592,7 +1467,6 @@ why choose us */
   position: relative;
   overflow: hidden;
 }
-
 .choose-us-section h2 {
   color: var(--primary);
   font-weight: bold;
@@ -1600,12 +1474,10 @@ why choose us */
   font-size: 2.5rem;
   margin-bottom: 40px;
 }
-
 .step {
   text-align: center;
   z-index: 1;
 }
-
 .step-circle {
   width: 100px;
   height: 100px;
@@ -1617,24 +1489,20 @@ why choose us */
   margin: 0 auto 20px;
   margin-top: 45px !important;
 }
-
 .step-circle img {
   width: 50px;
   height: 50px;
   filter: brightness(0) invert(1);
 }
-
 .step h3 {
   color: #1a3c6d;
   font-size: 1.25rem;
   margin-bottom: 10px;
 }
-
 .step p {
   color: #666;
   font-size: 0.9rem;
 }
-
 /* Dashed line between steps */
 .step-connector {
   position: absolute;
@@ -1643,14 +1511,15 @@ why choose us */
   right: 0;
   height: 2px;
   width: 80%;
-  background: repeating-linear-gradient(to right,
-      #1a3c6d 0,
-      #1a3c6d 5px,
-      transparent 5px,
-      transparent 10px);
+  background: repeating-linear-gradient(
+    to right,
+    #1a3c6d 0,
+    #1a3c6d 5px,
+    transparent 5px,
+    transparent 10px
+  );
   /* z-index: 0; */
 }
-
 /* Truck animation */
 .truck-container {
   position: absolute;
@@ -1658,12 +1527,10 @@ why choose us */
   left: 0;
   z-index: 1;
 }
-
 .truck-container img {
   width: 150px;
   height: auto;
 }
-
 .truck2-container img {
   width: 150px;
   height: auto;
@@ -1674,11 +1541,9 @@ why choose us */
 .truck-move {
   animation: moveTruck 8s linear infinite;
 }
-
 .placeholder-card {
   border: 1px solid #ff8c00;
 }
-
 .truck2-container {
   display: none;
 }
@@ -1687,55 +1552,43 @@ why choose us */
   0% {
     transform: translateX(70%);
   }
-
   100% {
     transform: translateX(70vw);
   }
 }
-
 /* Responsive adjustments */
 @media (max-width: 767px) {
   .step-circle {
     width: 80px;
     height: 80px;
   }
-
   .step-circle img {
     width: 40px;
     height: 40px;
   }
-
   .step h3 {
     font-size: 1rem;
   }
-
   .step p {
     font-size: 0.8rem;
   }
-
   .truck-container img {
     width: 100px;
   }
-
   .step-connector {
-    display: none;
-    /* Hide dashed line on mobile for better layout */
+    display: none; /* Hide dashed line on mobile for better layout */
   }
-
   .truck2-container {
     display: block !important;
   }
 }
-
 .contact-info i {
   margin-left: 10px;
   color: white !important;
 }
-
 .contact-info a {
   text-decoration: none;
 }
-
 .contact-info a:hover {
   color: white;
 }
@@ -1745,14 +1598,12 @@ why choose us */
   padding: 50px 0;
   background-color: #fff;
 }
-
 .faq-image {
   width: 100%;
   height: 624px;
   /* border: 5px solid #FF7200; */
   border-radius: 15px;
 }
-
 .faq-heading {
   color: #1a3c6d;
   font-weight: bold;
@@ -1764,20 +1615,17 @@ why choose us */
   margin-bottom: 20px;
   margin-bottom: 20px;
 }
-
 .faq-description {
   color: #666;
   font-size: 0.9rem;
   margin-bottom: 30px;
 }
-
 .accordion-item {
   border: none;
   margin-bottom: 10px;
   background-color: #e6f0fa;
   border-radius: 5px;
 }
-
 .accordion-button {
   background-color: #e6f0fa;
   color: #1a3c6d;
@@ -1785,46 +1633,37 @@ why choose us */
   border-radius: 5px;
   padding: 15px;
 }
-
 .accordion-button:not(.collapsed) {
   background-color: #d1e3f6;
   color: #1a3c6d;
 }
-
 .accordion-button:focus {
   box-shadow: none;
 }
-
 .accordion-body {
   background-color: #fff;
   color: #12171a;
   font-size: 1rem;
   border-radius: 0 0 5px 5px;
 }
-
 /* Responsive adjustments */
 @media (max-width: 767px) {
   .faq-image {
     margin-bottom: 30px;
   }
-
   .faq-heading {
     font-size: 1.5rem;
   }
-
   .faq-description {
     font-size: 0.85rem;
   }
-
   .accordion-button {
     font-size: 0.9rem;
   }
-
   .accordion-body {
     font-size: 0.85rem;
   }
 }
-
 .accordion-button::after {
   background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 16 16'><rect width='16' height='16' rx='3' fill='%23003366'/><path d='M8 4v8M4 8h8' stroke='white' stroke-width='2' stroke-linecap='round'/></svg>") !important;
 }
@@ -1842,14 +1681,12 @@ why choose us */
   background-color: #e6f0fa;
   padding: 50px 0;
 }
-
 .testimonials-section h2 {
   color: var(--primary);
   font-weight: bold;
   text-align: center;
   margin-bottom: 40px;
 }
-
 .testimonial-card {
   background-color: white;
   border-radius: 10px;
@@ -1857,49 +1694,40 @@ why choose us */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-
 .testimonial-card h3 {
   color: #1a3c6d;
   font-size: 1.25rem;
   margin-bottom: 10px;
 }
-
 .stars {
   color: var(--primary);
   font-size: 1.2rem;
   margin-bottom: 15px;
 }
-
 .testimonial-card p {
   color: #666;
   font-size: 0.9rem;
 }
-
 .carousel-indicators {
   margin-top: 20px;
 }
-
 .carousel-indicators [data-bs-target] {
   background-color: #1a3c6d;
   width: 10px;
   height: 10px;
   border-radius: 50%;
 }
-
 /* Responsive adjustments */
 @media (max-width: 767px) {
   .testimonial-card {
     margin-bottom: 20px;
   }
-
   .testimonials-section h2 {
     font-size: 1.5rem;
   }
-
   .testimonial-card h3 {
     font-size: 1rem;
   }
-
   .testimonial-card p {
     font-size: 0.85rem;
   }
@@ -1913,18 +1741,15 @@ why choose us */
     width: 100%;
     height: auto;
   }
-
   .about-description {
     width: 100%;
     height: auto;
   }
-
   .transport-operator {
     width: 100%;
     height: auto;
     margin-bottom: 40px;
   }
-
   .truck-img {
     width: 100%;
     height: auto;
@@ -1932,7 +1757,6 @@ why choose us */
     margin-left: -29px;
     margin-top: 40px;
   }
-
   .faq-image {
     width: 100%;
     height: auto;
@@ -1958,7 +1782,6 @@ why choose us */
   background-position: center;
   height: 100vh;
 }
-
 .fleet-truck {
   background-image: url("assets/images/fleet.webp");
   background-size: cover;
@@ -1966,7 +1789,6 @@ why choose us */
   background-position: center;
   height: 100vh;
 }
-
 .prime-truck {
   background-image: url("assets/images/prime-mover-truck-insurance.webp");
   background-size: cover;
@@ -1974,7 +1796,6 @@ why choose us */
   background-position: center;
   height: 100vh;
 }
-
 .tow-truck {
   background-image: url("assets/images/tow\ truck\ insurance.webp");
   background-size: cover;
@@ -1986,6 +1807,9 @@ why choose us */
 .tow-truck-text-container {
   height: 100vh;
 }
+.tow-truck-h1{
+    font-size:4.3rem!important;
+}
 
 .service-text {
   /* width: 698px;
@@ -1996,9 +1820,8 @@ height: 284px; */
   border-radius: 20px;
   padding: 34px 89px;
   background-color: #00000066;
-  background: rgba(0, 0, 0, 0.4);
-  /* semi-transparent */
-  /* ðŸ’¡ Blur effect */
+  background: rgba(0, 0, 0, 0.4); /* semi-transparent */
+  /* Ã°Å¸â€™Â¡ Blur effect */
   -webkit-backdrop-filter: blur(10px);
 
   display: flex;
@@ -2007,7 +1830,6 @@ height: 284px; */
   justify-content: center;
   margin-top: 15%;
 }
-
 .service-title h1 {
   font-family: Inter;
   font-weight: 700;
@@ -2016,7 +1838,6 @@ height: 284px; */
   letter-spacing: 0%;
   color: #ff7200 !important;
 }
-
 .service-title h3 {
   font-family: Poppins;
   font-weight: 600;
@@ -2025,16 +1846,13 @@ height: 284px; */
   letter-spacing: 0%;
   color: white;
 }
-
 .btn-read-more {
   background-color: #003672 !important;
 }
-
 .service-title p {
   font-family: Poppins;
   font-weight: 400;
   font-size: 18px;
-  ;
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
@@ -2121,7 +1939,6 @@ height: 284px; */
 .custom-card:hover .hover-overlay {
   transform: translateY(0);
 }
-
 .card-container {
   display: flex;
   justify-content: center;
@@ -2130,7 +1947,6 @@ height: 284px; */
   padding: 20px;
   margin-top: -88px;
 }
-
 .card-icon img {
   width: 40px;
 }
@@ -2271,8 +2087,7 @@ height: 284px; */
 }
 
 .feature-text {
-  color: #121212;
-  ;
+  color: #444;
   text-align: left;
 }
 
@@ -2293,16 +2108,13 @@ height: 284px; */
     margin-bottom: 30px;
     max-height: 300px;
   }
-
   .service-text {
     padding: 30px;
   }
-
   .service-title h3 {
     font-size: 24px;
     text-align: center;
   }
-
   .service-title p {
     text-align: left;
     font-size: 15px;
@@ -2315,12 +2127,9 @@ height: 284px; */
   .feature-item {
     justify-content: center;
   }
-
-  .services,
-  .tipper-truck,
-  .fleet-truck,
-  .prime-truck {
-    height: auto;
+  
+    .services, .tipper-truck, .fleet-truck, .prime-truck {
+      height:auto;
   }
 }
 
@@ -2382,11 +2191,9 @@ height: 284px; */
 }
 
 .coverage-details {
-  color: #121212;
-  ;
+  color: #444;
   text-align: center;
   font-size: 18px;
-  ;
 }
 
 .box-column {
@@ -2397,9 +2204,8 @@ height: 284px; */
   .service-box {
     margin-bottom: 30px;
   }
-
-  .service-text {
-    margin-top: 28%;
+  .service-text{
+      margin-top:28%;
   }
 }
 
@@ -2484,7 +2290,6 @@ height: 284px; */
 
   .ct-faq-question {
     font-size: 18px;
-    ;
   }
 
   .ct-faq-toggle {
@@ -2622,21 +2427,18 @@ height: 284px; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: auto;
+    height:auto;
     min-height: 500px;
-    padding: 80px 0 60px;
+    padding:80px 0 60px;
   }
-
   .coverage-header h2 {
     font-size: 24px !important;
     text-align: left !important;
   }
-
   .coverage-header p {
     font-size: 16px !important;
     text-align: left !important;
   }
-
   .why-choose-card {
     width: auto !important;
   }
@@ -2653,7 +2455,7 @@ height: 284px; */
   padding: 0 15px;
 }
 
-.tt-insurance-title {
+  .tt-insurance-title {
   color: var(--primary);
   font-weight: 700;
   margin-bottom: 2rem;
@@ -2695,7 +2497,7 @@ height: 284px; */
 }
 
 .tt-insurance-factors-title {
-  color: #0d3b66;
+   color: #0d3b66;
   font-weight: 700;
   text-align: center;
   margin: 2rem 0 1.5rem;
@@ -2759,12 +2561,10 @@ height: 284px; */
   .tt-insurance-footer {
     padding: 1.25rem;
   }
-
-  .footer-quick {
-    margin-top: 30px !important;
+  .footer-quick{
+      margin-top:30px!important;
   }
 }
-
 .custom-box {
   align-items: flex-start;
 }
@@ -2780,32 +2580,26 @@ height: 284px; */
     margin-right: 0 !important;
     margin-bottom: 1rem;
   }
-
   .Transport {
     margin-top: 20px;
   }
-
   .rounded-circle {
     margin-left: 20px;
   }
-
   .truck-container {
     margin-top: -6%;
     display: none;
   }
-
   .truck2-container {
     margin-top: 54% !;
     display: none;
   }
 }
-
 @media (max-width: 550px) {
   .hero-title {
     margin-top: -20% !important;
   }
 }
-
 .line {
   display: flex;
   align-items: start;
@@ -2876,9 +2670,7 @@ height: 284px; */
     margin-top: 20px;
   }
 }
-
 @media (max-width: 767.98px) {
-
   /* Make form rows stack properly */
   .form-row {
     margin-bottom: 0;
@@ -2900,8 +2692,7 @@ height: 284px; */
   .form-control,
   .form-select {
     padding: 10px;
-    font-size: 16px;
-    /* Prevents iOS zoom on input focus */
+    font-size: 16px; /* Prevents iOS zoom on input focus */
     height: auto;
   }
 
@@ -2926,7 +2717,6 @@ height: 284px; */
     border-width: 2px !important;
   }
 }
-
 /* Main container styling */
 .benefits-container {
   max-width: 1200px;
@@ -2938,7 +2728,7 @@ height: 284px; */
 .benefits-heading {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #12171a;
+  color: #333;
   margin-bottom: 2rem;
   position: relative;
   text-align: center;
@@ -3004,17 +2794,13 @@ height: 284px; */
   position: relative;
   padding-left: 35px;
   margin-bottom: 20px;
-  font-size: 18px;
-  ;
-  /* User requested 18px */
+  font-size: 18px; /* User requested 18px */
   line-height: 1.6;
-  color: #121212;
-  ;
+  color: #444;
 }
 
 .dt-arrow-list li::before {
-  content: "\f061";
-  /* FontAwesome Right Arrow */
+  content: "\f061"; /* FontAwesome Right Arrow */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   position: absolute;
@@ -3030,7 +2816,6 @@ height: 284px; */
     flex: 100%;
     margin-bottom: -4px;
   }
-
   /* Fix for Dropdown Improvements media query syntax error */
   .dt-type-card {
     margin-bottom: 20px;
@@ -3067,12 +2852,10 @@ height: 284px; */
 ================================ */
 .coverage-cards {
   gap: 1.5rem !important;
-  overflow-x: hidden !important;
-  /* Prevent mobile scroll */
+  overflow-x: hidden !important; /* Prevent mobile scroll */
 }
 
 @media (min-width: 768px) {
-
   /* Enforce four cards per row on medium+ screens regardless of other overrides */
   .coverage-cards {
     display: grid !important;
@@ -3080,34 +2863,29 @@ height: 284px; */
     gap: 1.5rem !important;
     align-items: start;
   }
-
-  .coverage-cards>[class*="col-"] {
+  .coverage-cards > [class*="col-"] {
     width: 100% !important;
     max-width: 100% !important;
     margin: 0 !important;
     padding: 0 !important;
   }
-
   .coverage-cards .coverage-item {
     width: 100% !important;
     min-height: 350px;
   }
 }
-
 @media (min-width: 990px) {
   .coverage-cards .coverage-item {
     width: 100% !important;
     min-height: 265px;
   }
 }
-
 @media (min-width: 1200px) {
   .coverage-cards .coverage-item {
     width: 100% !important;
     min-height: 220px;
   }
 }
-
 @media (min-width: 1390px) {
   .coverage-cards .coverage-item {
     width: 100% !important;
@@ -3140,7 +2918,6 @@ height: 284px; */
 .coverage-item .card-title {
   color: #013469;
   font-size: 18px;
-  ;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -3201,8 +2978,7 @@ height: 284px; */
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.7);
-  /* Dark overlay opacity */
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay opacity */
   z-index: -1;
 }
 
@@ -3285,7 +3061,7 @@ height: 284px; */
 
 /* Food Truck Specific Styles - Premium Redesign */
 :root {
-  --ft-primary: #ff7200;
+  --primary: #ff7200;
   /* Brand Orange */
   --ft-secondary: #ff9f43;
   /* Lighter Orange */
@@ -3298,7 +3074,7 @@ height: 284px; */
 }
 
 .ft-section {
-  padding: 60px 0;
+  padding: 80px 0;
   background-color: var(--ft-white);
 }
 
@@ -3386,7 +3162,7 @@ height: 284px; */
   justify-content: center;
   margin: 0 auto 25px;
   font-size: 32px;
-  color: var(--ft-primary);
+  color: var(--primary);
 }
 
 .ft-card h3 {
@@ -3414,7 +3190,7 @@ height: 284px; */
   content: "\f00c";
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: var(--ft-primary);
+  color: var(--primary);
   position: absolute;
   left: 0;
 }
@@ -3426,7 +3202,7 @@ height: 284px; */
   height: 100%;
   display: flex;
   flex-direction: column;
-  border-top: 4px solid var(--ft-primary);
+  border-top: 4px solid var(--primary);
 }
 
 .ft-card.ft-card-coverage h4 {
@@ -3445,7 +3221,6 @@ height: 284px; */
 .ft-card.ft-card-coverage .ft-detail-list li {
   margin-bottom: 12px;
   font-size: 18px;
-  ;
 }
 
 /* List Styling */
@@ -3470,11 +3245,11 @@ height: 284px; */
 
 .ft-list-item:hover {
   transform: translateY(-3px);
-  border-color: var(--ft-primary);
+  border-color: var(--primary);
 }
 
 .ft-list-item i {
-  color: var(--ft-primary);
+  color: var(--primary);
   margin-right: 15px;
   font-size: 1.2rem;
 }
@@ -3534,7 +3309,7 @@ height: 284px; */
 
 /* Coverage Details in Tabs */
 .ft-coverage-group h4 {
-  color: var(--ft-primary);
+  color: var(--primary);
   font-size: 1.2rem;
   font-weight: 700;
   margin-bottom: 12px;
@@ -3551,8 +3326,7 @@ height: 284px; */
   position: relative;
   padding-left: 24px;
   margin-bottom: 8px;
-  color: #121212;
-  ;
+  color: #444;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -3593,12 +3367,12 @@ height: 284px; */
 }
 
 .ft-tab-btn:hover {
-  color: var(--ft-secondary);
+  color: var(--primary);
 }
 
 .ft-tab-btn.active {
-  color: var(--ft-primary);
-  border-bottom-color: var(--ft-primary);
+  color: var(--primary);
+  border-bottom-color: var(--primary);
 }
 
 .ft-tab-content {
@@ -3625,9 +3399,8 @@ height: 284px; */
 }
 
 .ft-check-item {
-  font-size: 18px;
-  color: #121212;
-  ;
+  font-size: 1.05rem;
+  color: #444;
   display: flex;
   align-items: flex-start;
 }
@@ -3718,7 +3491,7 @@ height: 284px; */
   color: #666;
   line-height: 1.8;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1.05rem;
 }
 
 .ft-split-list {
@@ -3731,8 +3504,8 @@ height: 284px; */
   margin-bottom: 15px;
   position: relative;
   padding-left: 35px;
-  color: #12171a;
-  font-size: 18px;
+  color: #555;
+  font-size: 1.05rem;
 }
 
 .ft-split-list li::before {
@@ -3740,7 +3513,7 @@ height: 284px; */
   /* Check square */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  color: var(--ft-primary);
+  color: var(--primary);
   position: absolute;
   left: 0;
   font-size: 1.2rem;
@@ -3749,7 +3522,7 @@ height: 284px; */
 
 /* Quick Quote Form Section */
 .ft-form-section {
-  padding: 60px 0;
+  padding: 80px 0;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/images/food-truck-night.webp");
@@ -3786,7 +3559,6 @@ height: 284px; */
   margin: 5px 0 0;
   opacity: 0.8;
   font-size: 18px;
-  ;
 }
 
 .ft-quote-body {
@@ -3801,13 +3573,12 @@ height: 284px; */
   width: 100%;
   margin-bottom: 15px;
   font-size: 18px;
-  ;
-  color: #12171a;
+  color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .ft-form-control:focus {
-  outline: 2px solid var(--ft-primary);
+  outline: 2px solid var(--primary);
 }
 
 /* Custom Coverage Dropdown */
@@ -3826,8 +3597,7 @@ height: 284px; */
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
-  ;
-  color: #12171a;
+  color: #555;
   border: 1px solid transparent;
 }
 
@@ -3866,7 +3636,7 @@ height: 284px; */
   text-align: left;
   border-bottom: 1px solid #f0f0f0;
   font-size: 0.9rem;
-  color: #12171a;
+  color: #555;
 }
 
 .ft-option:last-child {
@@ -3879,7 +3649,7 @@ height: 284px; */
 
 .ft-option input {
   margin-right: 10px;
-  accent-color: var(--ft-primary);
+  accent-color: var(--primary);
 }
 
 .ft-submit-btn {
@@ -3915,7 +3685,7 @@ height: 284px; */
   padding: 12px 30px;
   cursor: pointer;
   font-weight: 600;
-  color: #12171a;
+  color: #555;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 50px;
@@ -4013,13 +3783,13 @@ height: 284px; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   /* Stronger shadow */
   z-index: 10;
-  color: var(--ft-primary);
+  color: var(--primary);
   transition: all 0.3s ease;
   font-size: 1.2rem;
 }
 
 .ft-carousel-btn:hover {
-  background: var(--ft-primary);
+  background: var(--primary);
   color: #fff;
   box-shadow: 0 6px 15px rgba(255, 107, 0, 0.3);
 }
@@ -4048,17 +3818,13 @@ height: 284px; */
     right: 5px;
   }
 }
-
 /* Improved Form Mobile Styling */
 
 @media (max-width: 576px) {
-
   /* Adjust input spacing and sizing */
   .ft-form-control {
-    margin-bottom: 15px;
-    /* Ensure gap between stacked inputs */
-    font-size: 16px;
-    /* Prevent zoom on iOS */
+    margin-bottom: 15px; /* Ensure gap between stacked inputs */
+    font-size: 16px; /* Prevent zoom on iOS */
     width: 100% !important;
   }
 
@@ -4079,42 +3845,35 @@ height: 284px; */
   }
 
   .ft-quote-body {
-    padding: 20px;
-    /* Reducing padding for mobile to give more breathing room to inputs if needed */
+    padding: 20px; /* Reducing padding for mobile to give more breathing room to inputs if needed */
   }
 
   .ft-form-section {
-    padding: 50px 0;
-    /* reduce section padding slightly */
+    padding: 50px 0; /* reduce section padding slightly */
   }
 
   /* Dropdown Improvements */
   .ft-options {
-    position: relative;
-    /* Change from absolute to relative on mobile to avoid overflow issues */
+    position: relative; /* Change from absolute to relative on mobile to avoid overflow issues */
     top: auto;
     left: auto;
     right: auto;
     border: 1px solid #ffc107;
     box-shadow: none;
-    max-height: 250px;
-    /* Ensure it's scrollable if long */
+    max-height: 250px; /* Ensure it's scrollable if long */
   }
 
   .ft-custom-select {
-    overflow: hidden;
-    /* Contain the relative dropdown */
+    overflow: hidden; /* Contain the relative dropdown */
   }
 
   .ft-option {
-    padding: 12px 15px;
-    /* Larger touch target */
+    padding: 12px 15px; /* Larger touch target */
     border-bottom: 1px solid #eee;
   }
 
   .ft-option input {
-    transform: scale(1.2);
-    /* Make checkbox easier to hit */
+    transform: scale(1.2); /* Make checkbox easier to hit */
     margin-right: 15px !important;
     width: auto !important;
     flex-shrink: 0;
@@ -4128,11 +3887,10 @@ height: 284px; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: auto;
+    height:auto;
     min-height: 500px;
-    padding: 80px 0 60px;
-    display: block;
-    /* Header needs to be at top, not centered flex item */
+    padding:80px 0 60px;
+    display: block; /* Header needs to be at top, not centered flex item */
   }
 
   .tow-truck-text-container {
@@ -4161,7 +3919,6 @@ height: 284px; */
     border-radius: 10px;
   }
 }
-
 .service-text {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
@@ -4187,8 +3944,7 @@ height: 284px; */
   /* 2. "What is a tow truck?" Section */
   .mobile-reorder-wrapper .tow-info-section {
     order: 2;
-    margin-top: 2rem;
-    /* Add spacing after banner */
+    margin-top: 2rem; /* Add spacing after banner */
   }
 
   /* Explicitly ensure Image is below Content in "What is a tow truck?" */
@@ -4203,15 +3959,13 @@ height: 284px; */
 
   .tow-info-image-container {
     order: 2;
-    border-radius: 0 0 15px 15px;
-    /* Adjust border radius for bottom position */
+    border-radius: 0 0 15px 15px; /* Adjust border radius for bottom position */
   }
 
   /* 3. Cards Section */
   .mobile-reorder-wrapper .card-container {
     order: 3;
-    margin-top: 2rem;
-    /* Add spacing */
+    margin-top: 2rem; /* Add spacing */
   }
 
   /* 4. Quote Form */
@@ -4244,7 +3998,6 @@ height: 284px; */
 .mobile-only {
   display: none !important;
 }
-
 .desktop-only {
   display: block !important;
 }
@@ -4253,10 +4006,9 @@ height: 284px; */
   .mobile-only {
     display: block !important;
   }
-
-  /*.desktop-only {*/
-  /*  display: none !important;*/
-  /*}*/
+  .dump-why{
+    text-align:center;  
+  }
 }
 
 /* Dump Truck Insurance Page Specific Styles */
@@ -4294,8 +4046,8 @@ height: 284px; */
 
 /* Dump Truck Specific Styles - Copied from FT */
 .dt-page #header {
-  position: relative;
-  z-index: 9999 !important;
+    position: relative;
+    z-index: 9999 !important;
 }
 
 :root {
@@ -4312,19 +4064,16 @@ height: 284px; */
   padding: 40px 0;
   background-color: var(--dt-white);
 }
-
-.horse-container-fluid,
-.dump-container-fluid {
-  display: contents;
+.horse-container-fluid, .dump-container-fluid{
+    display:contents;
 }
 
 /* Reduced padding for coverage options to bring form closer */
 #coverage-options {
-  padding-bottom: 20px;
+    padding-bottom: 20px;
 }
-
 .quote-section {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -4336,7 +4085,7 @@ height: 284px; */
 .dt-hero {
   height: 70vh;
   min-height: 600px;
-  /*  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+/*  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/images/dump-truck-hero.webp"); */
   background-image: url("assets/images/dump-truck-hero-v4.webp");
   background-size: cover;
@@ -4350,19 +4099,19 @@ height: 284px; */
 }
 
 .dt-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .dt-hero-content {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 .dt-hero-content h1 {
@@ -4492,7 +4241,6 @@ height: 284px; */
 .dt-card.dt-card-coverage .dt-detail-list li {
   margin-bottom: 12px;
   font-size: 18px;
-  ;
 }
 
 /* List Styling */
@@ -4598,8 +4346,7 @@ height: 284px; */
   position: relative;
   padding-left: 24px;
   margin-bottom: 8px;
-  color: #121212;
-  ;
+  color: #444;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -4672,9 +4419,8 @@ height: 284px; */
 }
 
 .dt-check-item {
-  font-size: 18px;
-  color: #121212;
-  ;
+  font-size: 1.05rem;
+  color: #444;
   display: flex;
   align-items: flex-start;
 }
@@ -4743,7 +4489,7 @@ height: 284px; */
   color: #666;
   line-height: 1.8;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1.05rem;
 }
 
 .dt-split-list {
@@ -4756,9 +4502,8 @@ height: 284px; */
   margin-bottom: 15px;
   position: relative;
   padding-left: 35px;
-  color: #12171a;
+  color: #555;
   font-size: 18px;
-  ;
 }
 
 .dt-split-list li::before {
@@ -4775,7 +4520,7 @@ height: 284px; */
 
 /* Quick Quote Form Section */
 .dt-form-section {
-  padding: 60px 0;
+  padding: 80px 0;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("assets/images/dump-truck-form-bg.webp");
@@ -4811,7 +4556,6 @@ height: 284px; */
   margin: 5px 0 0;
   opacity: 0.8;
   font-size: 18px;
-  ;
 }
 
 .dt-quote-body {
@@ -4826,8 +4570,7 @@ height: 284px; */
   width: 100%;
   margin-bottom: 15px;
   font-size: 18px;
-  ;
-  color: #12171a;
+  color: #333;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
@@ -4851,8 +4594,7 @@ height: 284px; */
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
-  ;
-  color: #12171a;
+  color: #555;
   border: 1px solid transparent;
 }
 
@@ -4891,7 +4633,7 @@ height: 284px; */
   text-align: left;
   border-bottom: 1px solid #f0f0f0;
   font-size: 0.9rem;
-  color: #12171a;
+  color: #555;
 }
 
 .dt-option:last-child {
@@ -4940,7 +4682,7 @@ height: 284px; */
   padding: 12px 30px;
   cursor: pointer;
   font-weight: 600;
-  color: #12171a;
+  color: #555;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 50px;
@@ -5073,17 +4815,13 @@ height: 284px; */
     right: 5px;
   }
 }
-
 /* Improved Form Mobile Styling */
 
 @media (max-width: 576px) {
-
   /* Adjust input spacing and sizing */
   .dt-form-control {
-    margin-bottom: 15px;
-    /* Ensure gap between stacked inputs */
-    font-size: 16px;
-    /* Prevent zoom on iOS */
+    margin-bottom: 15px; /* Ensure gap between stacked inputs */
+    font-size: 16px; /* Prevent zoom on iOS */
     width: 100% !important;
   }
 
@@ -5104,13 +4842,11 @@ height: 284px; */
   }
 
   .dt-quote-body {
-    padding: 20px;
-    /* Reducing padding for mobile to give more breathing room to inputs if needed */
+    padding: 20px; /* Reducing padding for mobile to give more breathing room to inputs if needed */
   }
 
   .dt-form-section {
-    padding: 50px 0;
-    /* reduce section padding slightly */
+    padding: 50px 0; /* reduce section padding slightly */
   }
 }
 
@@ -5128,7 +4864,7 @@ height: 284px; */
   padding: 25px 20px;
   border-radius: 12px;
   border: 1px solid #f0f0f0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
@@ -5139,7 +4875,7 @@ height: 284px; */
 
 .dt-grid-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   border-color: #ff9f43;
 }
 
@@ -5158,8 +4894,7 @@ height: 284px; */
 
 .dt-grid-text {
   font-size: 18px;
-  ;
-  color: #12171a;
+  color: #555;
   line-height: 1.6;
   margin: 0;
 }
@@ -5179,7 +4914,7 @@ height: 284px; */
   padding: 30px 20px;
   border-radius: 12px;
   border: 1px solid #f0f0f0;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -5201,6 +4936,7 @@ height: 284px; */
   justify-content: center;
   font-size: 1.8rem;
   margin-bottom: 20px;
+  padding:10px;
   transition: transform 0.3s ease;
 }
 
@@ -5208,7 +4944,7 @@ height: 284px; */
 
 .dt-type-card .type-title {
   font-weight: 700;
-  color: #12171a;
+  color: #333;
   margin: 0;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -5245,8 +4981,7 @@ height: 284px; */
 }
 
 .dt-warning-list li::before {
-  content: "\f00d";
-  /* Times/X icon */
+  content: "\f00d"; /* Times/X icon */
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   color: #ff4757;
@@ -5257,34 +4992,28 @@ height: 284px; */
 
 
 @media (max-width: 768px) {
-
   /* Dropdown Improvements */
   .dt-options {
-    position: relative;
-    /* Change from absolute to relative on mobile to avoid overflow issues */
+    position: relative; /* Change from absolute to relative on mobile to avoid overflow issues */
     top: auto;
     left: auto;
     right: auto;
     border: 1px solid #ffc107;
     box-shadow: none;
-    max-height: 250px;
-    /* Ensure it's scrollable if long */
+    max-height: 250px; /* Ensure it's scrollable if long */
   }
 
   .dt-custom-select {
-    overflow: hidden;
-    /* Contain the relative dropdown */
+    overflow: hidden; /* Contain the relative dropdown */
   }
 
   .dt-option {
-    padding: 12px 15px;
-    /* Larger touch target */
+    padding: 12px 15px; /* Larger touch target */
     border-bottom: 1px solid #eee;
   }
 
   .dt-option input {
-    transform: scale(1.2);
-    /* Make checkbox easier to hit */
+    transform: scale(1.2); /* Make checkbox easier to hit */
     margin-right: 15px !important;
     width: auto !important;
     flex-shrink: 0;
@@ -5303,72 +5032,60 @@ height: 284px; */
     margin-top: 1rem !important;
     margin-bottom: 1rem !important;
   }
-
   .truck-insurance-quote {
-    padding-top: 0 !important;
+      padding-top: 0 !important;
   }
 }
-
 .quote-section {
-  margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 /* Form Submission Loader */
 /* Button Loading State */
 .submit-btn.button-loading {
-  color: transparent !important;
-  pointer-events: none;
-  position: relative;
+    color: transparent !important;
+    pointer-events: none;
+    position: relative;
 }
 
 .submit-btn.button-loading::after {
-  content: "";
-  position: absolute;
-  width: 24px;
-  height: 24px;
-  top: 50%;
-  left: 50%;
-  margin-top: -12px;
-  margin-left: -12px;
-  border: 3px solid rgba(255, 255, 255, 0.3);
-  border-radius: 50%;
-  border-top-color: #fff;
-  animation: button-spin 1s ease-in-out infinite;
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    margin-top: -12px;
+    margin-left: -12px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    border-top-color: #fff;
+    animation: button-spin 1s ease-in-out infinite;
 }
 
 @keyframes button-spin {
-  to {
-    transform: rotate(360deg);
-  }
+    to { transform: rotate(360deg); }
 }
-
 /* Specific styles for Quote Form Checkboxes */
 .quote-form .form-check {
   display: flex;
-  align-items: center;
-  /* Center align checkbox with text */
-  margin-bottom: 10px;
-  /* Space between rows */
-  /* Reset bootstrap padding if using flex */
+  align-items: center; /* Center align checkbox with text */
+  margin-bottom: 10px; /* Space between rows */
+   /* Reset bootstrap padding if using flex */
 }
 
 .quote-form .form-check-input {
   width: 16px !important;
   height: 16px !important;
   margin-top: 0;
-  margin-right: 10px;
-  /* Space between box and text */
-  flex-shrink: 0;
-  /* Prevent shrinking */
-  float: none;
-  /* Override bootstrap float */
-  margin-left: 0;
-  /* Override bootstrap margin */
+  margin-right: 10px; /* Space between box and text */
+  flex-shrink: 0; /* Prevent shrinking */
+  float: none; /* Override bootstrap float */
+  margin-left: 0; /* Override bootstrap margin */
   background-color: #fff;
   border: 1px solid #ccc;
   border-radius: 3px;
-  appearance: checkbox !important;
-  /* Force standard checkbox appearance */
+  appearance: checkbox !important; /* Force standard checkbox appearance */
   -webkit-appearance: checkbox !important;
 }
 
@@ -5376,8 +5093,7 @@ height: 284px; */
   font-size: 15px;
   line-height: 1.4;
   cursor: pointer;
-  font-weight: 400 !important;
-  /* Remove bold from checkboxes */
+  font-weight: 400 !important; /* Remove bold from checkboxes */
 }
 
 
@@ -5413,9 +5129,8 @@ height: 284px; */
 .ti-bg-light {
   background-color: #fff8f0;
 }
-
-.faq-new {
-  font-size: 35px !important;
+.faq-new{
+  font-size: 35px!important;
 }
 
 /* Hero */
@@ -5471,7 +5186,6 @@ height: 284px; */
   margin-bottom: 20px;
   color: white;
 }
-
 .ti-hero {
   position: relative;
   height: 70vh;
@@ -5499,7 +5213,6 @@ height: 284px; */
 
 .ti-hero-content p {
   font-size: 18px;
-  ;
   /* max-width: 800px; */
   /* margin: 0 auto 30px; */
   opacity: 0.95;
@@ -5598,7 +5311,7 @@ height: 284px; */
   padding: 12px 30px;
   cursor: pointer;
   font-weight: 600;
-  color: #12171a;
+  color: #555;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   border-radius: 50px;
@@ -5650,9 +5363,8 @@ height: 284px; */
 }
 
 .ti-check-item {
-  font-size: 18px;
-  color: #121212;
-  ;
+  font-size: 1.05rem;
+  color: #444;
   display: flex;
   align-items: flex-start;
 }
@@ -5720,7 +5432,7 @@ height: 284px; */
   color: #666;
   line-height: 1.8;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 1.05rem;
 }
 
 .ti-split-list {
@@ -5734,7 +5446,6 @@ height: 284px; */
   position: relative;
   padding-left: 35px;
   font-size: 18px;
-  ;
 }
 
 .ti-split-list li::before {
@@ -5844,8 +5555,8 @@ height: 284px; */
 .ti-carousel-control-prev,
 .ti-carousel-control-next {
   background-color: white;
-  color: var(--primary);
-  border: 1px solid var(--primary);
+  color: #e05e00;
+  border: 1px solid #e05e00;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -5881,14 +5592,13 @@ height: 284px; */
 
 .ti-carousel-control-prev:hover,
 .ti-carousel-control-next:hover {
-  background-color: var(--primary);
+  background-color: #e05e00;
   color: white;
 }
 
 .ti-carousel-control-prev i,
 .ti-carousel-control-next i {
   font-size: 18px;
-  ;
 }
 
 @media (max-width: 768px) {
@@ -5899,9 +5609,8 @@ height: 284px; */
   .ti-carousel-control-next {
     right: 0;
   }
-
-  .how-toget-truck img {
-    height: 300px !important;
+  .how-toget-truck img{
+    height: 300px!important;
   }
 }
 
@@ -5960,7 +5669,7 @@ height: 284px; */
   width: 60px;
   height: 60px;
   background: #fff8f0;
-  color: var(--primary);
+  color: #ff7200;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -5969,24 +5678,24 @@ height: 284px; */
 }
 
 .ti-cov-title {
-  flex: 1;
-  position: relative;
-  padding-bottom: 10px;
+    flex: 1;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 .ti-cov-title::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #f6f6f6;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background: #f6f6f6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .ti-coverage-card:first-child .ti-cov-title::after {
-  width: 33%;
+    width: 33%;
 }
 
 
@@ -5996,7 +5705,7 @@ height: 284px; */
   font-size: 1.4rem;
   font-weight: 700;
   margin: 0;
-  color: #12171a;
+  color: #333;
 }
 
 .ti-cov-badge {
@@ -6016,8 +5725,7 @@ height: 284px; */
 .ti-cov-content h4 {
   font-size: 1rem;
   font-weight: 700;
-  color: #121212;
-  ;
+  color: #444;
   margin-bottom: 15px;
 }
 
@@ -6036,18 +5744,15 @@ height: 284px; */
   .ti-cov-list-cols {
     column-count: 1;
   }
-
-  .to-section {
-    margin-bottom: 0 !important;
-  }
-
-  .ti-carousel-section {
-    margin-top: 0 !important;
-  }
-
-  .ti-coverage-card:first-child .ti-cov-title::after {
-    width: 100%;
-  }
+  .to-section{
+  margin-bottom: 0!important;
+}
+ .ti-carousel-section {
+  margin-top: 0!important;
+ }
+ .ti-coverage-card:first-child .ti-cov-title::after{
+  width: 100%;
+ }
 }
 
 .ti-cov-list li {
@@ -6056,7 +5761,6 @@ height: 284px; */
   /* margin-bottom: 10px; */
   color: #000;
   font-size: 18px;
-  ;
 }
 
 .ti-cov-list li::before {
@@ -6079,7 +5783,7 @@ height: 284px; */
 .ti-cov-ranges p {
   margin-bottom: 8px;
   font-size: 0.9rem;
-  color: #12171a;
+  color: #555;
 }
 
 .ti-cov-ranges p:last-child {
@@ -6157,7 +5861,6 @@ h4,
 
 p {
   font-size: 18px;
-  ;
 }
 
 .bt-container {
@@ -6199,9 +5902,9 @@ h1 {
 }
 
 .bt-section-title {
-  font-size: 2.5rem !important;
+  font-size: 2.5rem!important;
   margin-bottom: 20px;
-  color: var(--primary) !important;
+  color: var(--primary)!important;
   position: relative;
   font-weight: 700;
 }
@@ -6392,8 +6095,8 @@ h3 {
 .bt-hero-content h1 {
   font-size: 4.5rem;
   margin-bottom: 10px;
-  font-weight: 700;
-  line-height: 1;
+  font-weight:700;
+  line-height:1;
   color: var(--white);
 }
 
@@ -6766,7 +6469,7 @@ h3 {
   align-items: center;
   gap: 15px;
   margin-bottom: 12px;
-  font-size: 18px;
+  font-size: 1.05rem;
   color: var(--secondary);
   font-weight: 500;
 }
@@ -6786,11 +6489,10 @@ h3 {
     gap: 0;
     padding-left: 20px;
   }
-
   .bt-exclusions-content {
-    padding: 50px 0;
+      padding:50px 0;
   }
-
+  
 }
 
 /* Premium Factors Redesign */
@@ -6913,12 +6615,12 @@ h3 {
 .bt-faq-question {
   padding: 22px 25px;
   cursor: pointer;
-  font-weight: 700;
+   font-weight: 700; 
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: var(--secondary);
-  font-size: 18px;
+  font-size: 1.05rem;
   font-family: 'Inter', sans-serif;
 }
 
@@ -7043,7 +6745,7 @@ h3 {
 }
 
 .bt-footer-bottom {
-  border-top: 1px solid #12171a;
+  border-top: 1px solid #333;
   padding-top: 20px;
   text-align: center;
   color: #666;
@@ -7311,7 +7013,6 @@ h3 {
 
 .bt-mandatory-list li {
   font-size: 18px;
-  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -7319,7 +7020,7 @@ h3 {
 }
 
 .bt-mandatory-list li::before {
-  content: '✓';
+  content: 'âœ“';
   position: absolute;
   left: 0;
   top: 8px;
@@ -7476,10 +7177,9 @@ h3 {
     font-size: 2.2rem;
   }
 }
-
 @media (max-width: 768px) {
   .bt-ready-cta-content {
-    padding: 50px 30px;
+      padding:50px 30px;
   }
 }
 
@@ -7672,11 +7372,15 @@ h3 {
 
   .bt-hero-content h1 {
     font-size: 2.5rem;
-    font-size: 700;
+    font-size:700;
   }
 
   .bt-cta-banner {
     padding: 40px 20px;
+  }
+  .tow-truck-h1{
+      font-size: 2.5rem!important;
+    font-size:700!important;
   }
 }
 
@@ -7781,7 +7485,7 @@ h3 {
 /* Detailed Explanation Section - List Design (No Cards) */
 .bt-detailed-explanation {
   background: #ffffff;
-  padding: 50px 0 20px 0;
+  padding:50px 0 20px 0;
 }
 
 .bt-explanation-list {
@@ -7828,7 +7532,7 @@ h3 {
 .bt-explanation-content p {
   font-size: 1rem;
   line-height: 1.6;
-  color: #12171a;
+  color: #555;
   margin-bottom: 0;
 }
 
@@ -7852,140 +7556,140 @@ h3 {
 }
 
 
-/* Offcanvas styling with orange background */
-.offcanvas {
-  max-width: 300px;
-  background-color: #ff8c00;
-  /* Orange background */
-}
+ /* Offcanvas styling with orange background */
+    .offcanvas {
+        max-width: 300px;
+        background-color: #ff8c00;
+        /* Orange background */
+    }
 
-.offcanvas-header {
-  /* Slightly darker orange for header */
-  border-bottom: 1px solid #ffa333;
-}
-
-
-.offcanvas-body .nav-link {
-  padding: 0.8rem 1rem;
-  border-bottom: 1px solid #ffa333;
-  /* White text for better contrast */
-}
-
-.offcanvas-body .dropdown-item {
-  color: black !important;
-}
-
-.offcanvas-body .dropdown-item:hover {
-  background-color: #ffb347;
-}
-
-.offcanvas-body .dropdown-menu {
-  position: static;
-  width: 100%;
-  border: none;
-  box-shadow: none;
-  padding-left: 1rem;
-  background-color: #ff9919;
-}
-
-.hamburger-toggle {
-  cursor: pointer;
-  padding: 10px 15px;
-  background: transparent;
-  border: none;
-  color: #ff8c00;
-  /* Orange icon color */
-}
-
-/* Hide mobile logo on desktop */
-@media (min-width: 992px) {
-  .mobile-logo {
-    display: none;
-  }
-
-  .nav-link {
-    color: white !important;
-  }
-
-  .hamburger-toggle {
-    display: none;
-  }
-}
-
-/* Show mobile logo on mobile and apply white background ONLY in mobile */
-@media (max-width: 991px) {
-  .mobile-logo {
-    display: block;
-    max-height: 45px;
-  }
-
-  /* White background ONLY for mobile navbar */
-  .main-nav {
-    background-color: white !important;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 8px 0 !important;
-  }
+    .offcanvas-header {
+        /* Slightly darker orange for header */
+        border-bottom: 1px solid #ffa333;
+    }
 
 
-  .navbar-brand {
-    padding: 5px 0;
-  }
-}
+    .offcanvas-body .nav-link {
+        padding: 0.8rem 1rem;
+        border-bottom: 1px solid #ffa333;
+        /* White text for better contrast */
+    }
 
-/* White color for chevron icon */
-.fa-chevron-down {
-  color: white;
-}
+    .offcanvas-body .dropdown-item {
+        color: black !important;
+    }
 
-/* Make close button white */
-.btn-close {
-  filter: brightness(0) invert(1);
-}
+    .offcanvas-body .dropdown-item:hover {
+        background-color: #ffb347;
+    }
 
-/* Improved Get Quote button */
-.get-quote-btn {
-  background-color: #003672;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 50px;
-  font-weight: bold;
-}
+    .offcanvas-body .dropdown-menu {
+        position: static;
+        width: 100%;
+        border: none;
+        box-shadow: none;
+        padding-left: 1rem;
+        background-color: #ff9919;
+    }
 
-.dropdown-menu img {
-  width: 15%;
-  margin-right: 2px;
-}
+    .hamburger-toggle {
+        cursor: pointer;
+        padding: 10px 15px;
+        background: transparent;
+        border: none;
+        color: #ff8c00;
+        /* Orange icon color */
+    }
 
-@media (max-width: 576px) {
-  .dropdown-menu img {
-    width: 20px !important;
-    margin-right: 2px;
-  }
-}
+    /* Hide mobile logo on desktop */
+    @media (min-width: 992px) {
+        .mobile-logo {
+            display: none;
+        }
 
-/* Desktop Navigation Links */
-.desktop-nav-link {
-  color: #000 !important;
-  font-weight: 600 !important;
-  font-size: 17px !important;
-}
+        .nav-link {
+            color: white !important;
+        }
 
-.btn-desktop-quote {
-  background-color: #C65100 !important;
-  color: white !important;
-  font-weight: 700 !important;
-  padding: 10px 20px !important;
-  font-size: 16px !important;
-  border-radius: 50px !important;
-  border: none;
-  transition: background-color 0.3s ease;
-}
+        .hamburger-toggle {
+            display: none;
+        }
+    }
 
-.btn-desktop-quote:hover {
-  background-color: #003672 !important;
-  color: white !important;
-}
+    /* Show mobile logo on mobile and apply white background ONLY in mobile */
+    @media (max-width: 991px) {
+        .mobile-logo {
+            display: block;
+            max-height: 45px;
+        }
+
+        /* White background ONLY for mobile navbar */
+        .main-nav {
+            background-color: white !important;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 8px 0 !important;
+        }
+
+
+        .navbar-brand {
+            padding: 5px 0;
+        }
+    }
+
+    /* White color for chevron icon */
+    .fa-chevron-down {
+        color: white;
+    }
+
+    /* Make close button white */
+    .btn-close {
+        filter: brightness(0) invert(1);
+    }
+
+    /* Improved Get Quote button */
+    .get-quote-btn {
+        background-color: #003672;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-weight: bold;
+    }
+
+    .dropdown-menu img {
+        width: 15%;
+        margin-right: 2px;
+    }
+
+    @media (max-width: 576px) {
+        .dropdown-menu img {
+            width: 20px !important;
+            margin-right: 2px;
+        }
+    }
+
+    /* Desktop Navigation Links */
+    .desktop-nav-link {
+        color: #000 !important;
+        font-weight: 600 !important;
+        font-size: 17px !important;
+    }
+
+    .btn-desktop-quote {
+        background-color: #C65100 !important;
+        color: white !important;
+        font-weight: 700 !important;
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        border-radius: 50px !important;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-desktop-quote:hover {
+        background-color: #003672 !important;
+        color: white !important;
+    }
 
 
 
@@ -7995,7 +7699,7 @@ h3 {
   padding: 60px 0;
 }
 
-.pli-truck-insurance-quote {
+.pli-truck-insurance-quote{
   padding-top: 0;
 }
 
@@ -8028,7 +7732,6 @@ h3 {
 .pli-reality-desc {
   color: #12171a;
   font-size: 18px;
-  ;
   margin-bottom: 0;
 }
 
@@ -8036,7 +7739,6 @@ h3 {
   color: #000 !important;
   display: flex;
   font-size: 18px;
-  ;
   align-items: center;
   margin-bottom: 12px;
 }
@@ -8156,7 +7858,7 @@ h3 {
 .pli-mand-note {
   display: inline-block;
   padding: 15px 30px;
-  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  background:linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
   border-radius: 50px;
   color: var(--primary);
   font-weight: 700;
@@ -8220,7 +7922,6 @@ h3 {
   border: 1px solid #eee !important;
   vertical-align: middle;
   font-size: 18px;
-  ;
   color: #000;
 }
 
@@ -8318,7 +8019,6 @@ h3 {
 
 .pli-summary-text {
   font-size: 18px;
-  ;
   color: #000;
   margin-bottom: 1.5rem;
 }
@@ -8429,7 +8129,7 @@ h3 {
   transform: translateX(5px);
 }
 
-.pli-strategy {
+.pli-strategy{
   padding: 60px 0;
 }
 
@@ -8437,7 +8137,6 @@ h3 {
   color: var(--primary);
   font-size: 1.2rem;
 }
-
 .pli-gap-tags {
   display: flex;
   flex-wrap: wrap;
@@ -8458,39 +8157,28 @@ h3 {
   color: #12171a;
   font-weight: 600;
 }
-
-.pli-faq {
-  padding-top: 20px !important;
+.pli-faq{
+  padding-top:20px!important;
 }
-
 @media (max-width: 768px) {
   .pli-gap-tags {
     justify-content: left;
   }
-
-  .pli-section-padding h2,
-  .pli-strategy h2,
-  .bt-support-section h2 {
-    font-size: 2rem !important;
-  }
-
-  .pli-section-padding.bg-light,
-  .pli-strategy.bg-light {
-    padding: 30px 0;
-  }
-
-  .pli-section-padding {
-    padding: 40px 0;
-  }
-
-  .bt-support-section {
-    padding-bottom: 30px;
-  }
-
-  .bt-mandatory-text p,
-  .bt-mandatory-list li {
-    font-size: 18px !important;
-  }
+  .pli-section-padding  h2, .pli-strategy h2, .bt-support-section h2{
+  font-size: 2rem!important;
+ }
+ .pli-section-padding.bg-light, .pli-strategy.bg-light {
+  padding: 30px 0;
+ }
+ .pli-section-padding{
+  padding: 40px 0;
+ }
+ .bt-support-section{
+  padding-bottom: 30px;
+ }
+ .bt-mandatory-text p, .bt-mandatory-list li {
+ font-size: 18px !important;
+ }
 }
 
 .bt-mandatory-list {
@@ -8498,8 +8186,7 @@ h3 {
   padding: 0;
   margin: 0;
 }
-
-.pli-para {
+.pli-para{
   display: contents;
 }
 
@@ -8545,7 +8232,6 @@ h3 {
 
 .bti-text-block {
   font-size: 18px;
-  ;
   line-height: 1.8;
 }
 
@@ -8580,7 +8266,6 @@ h3 {
 
 .bti-mandatory-list li {
   font-size: 18px;
-  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -8588,7 +8273,7 @@ h3 {
 }
 
 .bti-mandatory-list li::before {
-  content: '✓';
+  content: 'âœ“';
   position: absolute;
   left: 0;
   top: 8px;
@@ -8603,7 +8288,6 @@ h3 {
   font-weight: 700;
   font-size: 0.85rem;
 }
-
 .bti-info-box {
   border-top: 4px solid var(--primary);
 }
@@ -8663,7 +8347,7 @@ h3 {
   padding: 2rem;
   background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
   border-radius: 15px;
-  border: 2px dashed var(--primary);
+  border:2px dashed var(--primary);
   text-align: center;
 }
 
@@ -8686,7 +8370,6 @@ h3 {
 .bti-reality-desc {
   color: #12171a;
   font-size: 18px;
-  ;
   margin-bottom: 0;
 }
 
@@ -8815,7 +8498,6 @@ h3 {
   align-items: baseline;
   gap: 5px;
   font-size: 18px;
-  ;
   margin-bottom: 15px;
 }
 
@@ -9088,7 +8770,6 @@ h3 {
 /* Summary Section */
 .bti-summary-text {
   font-size: 18px;
-  ;
   color: #000;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -9105,8 +8786,7 @@ h3 {
 .bti-truck-insurance-quote {
   padding-top: 0;
 }
-
-.cost-depends {
+.cost-depends{
   color: var(--primary);
 }
 
@@ -9116,8 +8796,8 @@ h3 {
   background: #fff;
 }
 
-.box-truck-title h1 {
-  font-size: 4rem !important;
+.box-truck-title h1{
+    font-size:4rem !important;
 }
 
 /* Responsive Design */
@@ -9180,21 +8860,17 @@ h3 {
     width: 100%;
     justify-content: center;
   }
-
   .bti-mandatory-list {
     margin: 0;
   }
-
-  .bti-section-header {
+  .bti-section-header{
     margin-bottom: 0px;
   }
-
   .bti-shield-container {
-    margin: 30px auto 0;
+      margin: 30px auto 0;
   }
-
   .bt-section-title {
-    font-size: 2rem !important;
+    font-size: 2rem!important;
   }
 
 }
@@ -9209,19 +8885,18 @@ h3 {
     padding: 20px;
   }
 
-
+ 
   .bti-scenario-card {
     padding: 1.5rem;
   }
 }
-
-.bti-faq-section {
+.bti-faq-section{
   padding-bottom: 50px;
 }
 
-@media (min-width: 1200px) and (max-width: 1400px) {
-  .bt-hero-content h1 {
-    font-size: 3.8rem;
+@media (min-width: 1200px) and (max-width: 1400px) { 
+  .bt-hero-content h1{
+    font-size: 3.8rem!important;
   }
 }
 
@@ -9271,7 +8946,6 @@ h3 {
 
 .tib-text-block {
   font-size: 18px;
-  ;
   line-height: 1.8;
 }
 
@@ -9306,7 +8980,6 @@ h3 {
 
 .tib-mandatory-list li {
   font-size: 18px;
-  ;
   color: var(--text);
   padding: 8px 0 8px 30px;
   position: relative;
@@ -9314,7 +8987,7 @@ h3 {
 }
 
 .tib-mandatory-list li::before {
-  content: '✓';
+  content: 'âœ“';
   position: absolute;
   left: 0;
   top: 8px;
@@ -9412,7 +9085,6 @@ h3 {
 .tib-reality-desc {
   color: #12171a;
   font-size: 18px;
-  ;
   margin-bottom: 0;
 }
 
@@ -9541,7 +9213,6 @@ h3 {
   align-items: baseline;
   gap: 5px;
   font-size: 18px;
-  ;
   margin-bottom: 15px;
 }
 
@@ -9570,7 +9241,6 @@ h3 {
   line-height: 1.6;
   color: #000;
   font-size: 18px;
-  ;
   margin: 0;
 }
 
@@ -9824,7 +9494,6 @@ h3 {
 /* Summary Section */
 .tib-summary-text {
   font-size: 18px;
-  ;
   color: #000;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -9959,7 +9628,7 @@ h3 {
 
 /* Custom Tabs (Moved from inline styles) */
 .tib-custom-tabs .nav-link {
-  color: #12171a !important;
+  color: #333 !important;
   background-color: #f8f9fa;
   border: 1px solid #dee2e6;
   margin-bottom: 0.5rem;
@@ -10066,7 +9735,6 @@ h3 {
   padding-left: 25px;
   margin-bottom: 8px;
   font-size: 18px;
-  ;
   color: #12171a;
 }
 
@@ -10097,8 +9765,8 @@ h3 {
   width: 100%;
 }
 
-.types-of-trucks h3 {
-  font-size: 1.25rem;
+.types-of-trucks h3{
+    font-size:1.25rem;
 }
 
 /* Mobile specific adjustments for services grid */
@@ -10122,6 +9790,7 @@ h3 {
     gap: 0;
   }
 }
+
 
 /* MOBILE CATERING VAN INSURANCE PAGE */
 
@@ -10192,7 +9861,7 @@ h3 {
   gap: 0.75rem;
   padding: 0.6rem 0;
   border-bottom: 1px solid #f0f0f0;
-  color: #12171a;
+  color: #333;
   font-weight: 500;
 }
 
@@ -10291,7 +9960,7 @@ h3 {
 }
 
 .mcv-page .trust-section .trust-point {
-  color: #12171a;
+  color: #333;
   font-size: 0.97rem;
 }
 
@@ -10320,7 +9989,7 @@ h3 {
 }
 
 .mcv-page .faq-section .accordion-body {
-  color: #12171a;
+  color: #333;
   font-size: 0.97rem;
   line-height: 1.75;
   background: #fff;
@@ -10522,7 +10191,7 @@ h3 {
 
 .mcv-pill span {
   font-weight: 600;
-  color: #12171a;
+  color: #333;
   font-size: 0.95rem;
 }
 
@@ -10604,7 +10273,7 @@ h3 {
 }
 
 .mcv-trust-note p {
-  color: #12171a;
+  color: #333;
   font-size: 1rem;
   line-height: 1.7;
   margin: 0;
@@ -10725,7 +10394,7 @@ h3 {
 
 .mcv-pill span {
   font-weight: 600;
-  color: #12171a;
+  color: #333;
   font-size: 0.95rem;
 }
 
@@ -10802,7 +10471,7 @@ h3 {
 }
 
 .mcv-trust-note p {
-  color: #12171a;
+  color: #333;
   font-size: 1rem;
   line-height: 1.7;
   margin-bottom: 0;
@@ -10856,7 +10525,7 @@ h3 {
   margin-bottom: 0;
 }
 
-/* How to Get Cover Section — Reference Style */
+/* How to Get Cover Section â€” Reference Style */
 .mcv-steps-section {
   padding: 60px 0;
 }
@@ -10968,7 +10637,7 @@ h3 {
 
 /* --- MCV Cost Section Redesign (Reference 2) --- */
 .mcv-cost-section {
-  padding: 60px 0;
+  padding: 80px 0;
   background-color: #fff;
 }
 
@@ -10980,7 +10649,7 @@ h3 {
 }
 
 .mcv-cost-subtitle {
-  color: #12171a;
+  color: #333;
   font-size: 18px;
   margin-bottom: 40px;
 }
@@ -11042,7 +10711,11 @@ h3 {
   .mcv-cost-summary-callout {
     padding: 20px;
   }
+  .mobile-cover{
+      justify-content:center;
+  }
 }
+
 
 /* FOOD TRAILER INSURANCE PAGE */
 
@@ -11062,7 +10735,7 @@ h3 {
   border: 1px solid #e8e8e8;
   border-radius: 12px;
   padding: 1.5rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
   background: #fff;
 }
 
@@ -11105,9 +10778,8 @@ h3 {
   overflow: hidden;
   height: 100%;
 }
-
 .fti-section {
-  padding: 60px 0 !important;
+  padding: 60px 0!important;
 }
 
 .fti-page .step-card .step-num {
@@ -11255,17 +10927,14 @@ h3 {
   .fti-page .step-card {
     margin-bottom: 1rem;
   }
-
   .fti-page section:not(.bt-hero) h2 {
     font-size: 2rem;
     text-align: center;
   }
-
-  .fti-hero-points span,
-  .mcv-hero-points span {
+  .fti-hero-points span, .mcv-hero-points span{
     font-size: 14px;
     align-items: center;
-    justify-content: center !important;
+    justify-content: center!important;
   }
 }
 
@@ -11614,6 +11283,11 @@ h3 {
     font-size: 2.5rem;
   }
 }
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 
 /* ==========================================================================
    TRACTOR TRAILER TRUCK INSURANCE (TTI) STYLES
@@ -12042,10 +11716,6 @@ h3 {
   }
 }
 
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-}
 
 /* ==========================================================================
    Header & Footer Styles (Consolidated from Fragments)

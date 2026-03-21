@@ -5844,8 +5844,8 @@ height: 284px; */
 .ti-carousel-control-prev,
 .ti-carousel-control-next {
   background-color: white;
-  color: #e05e00;
-  border: 1px solid #e05e00;
+  color: var(--primary);
+  border: 1px solid var(--primary);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -5881,7 +5881,7 @@ height: 284px; */
 
 .ti-carousel-control-prev:hover,
 .ti-carousel-control-next:hover {
-  background-color: #e05e00;
+  background-color: var(--primary);
   color: white;
 }
 
@@ -5960,7 +5960,7 @@ height: 284px; */
   width: 60px;
   height: 60px;
   background: #fff8f0;
-  color: #ff7200;
+  color: var(--primary);
   border-radius: 15px;
   display: flex;
   align-items: center;

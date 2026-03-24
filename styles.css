@@ -12065,6 +12065,10 @@ input[type="number"]::-webkit-inner-spin-button {
   color: #000;
   line-height: 1.6;
 }
+.tti-headings{
+  color: var(--primary);
+  font-size: 2.5rem;
+}
 
 @media (max-width: 991px) {
   .ti-cost-factors-row .col-md-4 {
@@ -12079,6 +12083,12 @@ input[type="number"]::-webkit-inner-spin-button {
   .ti-cost-summary-callout {
     padding: 20px;
   }
+  .ti-section {
+    padding: 20px 0!important;
+  }
+  .tti-headings{
+  font-size: 2rem;
+}
 }
 
 .ti-trust-bg {

@@ -1706,7 +1706,8 @@ why choose us */
 }
 .testimonial-card p {
   color: #666;
-  font-size: 0.9rem;
+  font-size: 18px;
+  height: 80px;
 }
 .carousel-indicators {
   margin-top: 20px;
@@ -5669,7 +5670,7 @@ height: 284px; */
   width: 60px;
   height: 60px;
   background: #fff8f0;
-  color: #ff7200;
+  color: var(--primary);
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -11924,4 +11925,205 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .mars-linklist {
   line-height: 35px;
+}
+
+
+/* tow-truck-insurence */
+
+/* --- TI Sections (Tow Truck) --- */
+.ti-what-is {
+  padding: 60px 0;
+}
+
+.ti-what-is-img {
+  border-radius: 20px;
+}
+
+.ti-what-is p {
+  font-size: 18px;
+  color: #12171a;
+}
+
+.ti-infobox {
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  border-left: 4px solid var(--primary);
+  padding: 1.25rem;
+  border-radius: 6px;
+}
+
+.ti-infobox-title {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.ti-infobox-text {
+  color: #12171a;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.ti-protect-bg {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.ti-protect-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e8edf3;
+  text-align: center;
+}
+
+.ti-protect-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  color: var(--primary);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin: 0 auto 1.5rem auto;
+}
+
+.ti-protect-card h3 {
+  color: #12171a;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+
+.ti-protect-card p {
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.ti-section {
+  padding: 60px 0!important;
+}
+
+.ti-cost-section {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.ti-cost-title {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.ti-cost-subtitle {
+  color: #12171a;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.ti-cost-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.ti-cost-check {
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.ti-cost-item span {
+  font-size: 18px;
+  color: #12171a;
+  line-height: 1.4;
+}
+
+.ti-cost-summary-callout {
+  border: 1.5px dashed var(--primary);
+  background: linear-gradient(135deg, rgba(255, 114, 0, 0.1) 0%, rgba(255, 114, 0, 0.05) 100%);
+  padding: 25px 40px;
+  border-radius: 15px;
+}
+
+.ti-cost-summary-callout p {
+  font-size: 18px;
+  color: #000;
+  line-height: 1.6;
+}
+
+@media (max-width: 991px) {
+  .ti-cost-factors-row .col-md-4 {
+    padding-right: 15px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .ti-cost-section {
+    padding: 60px 0;
+  }
+  .ti-cost-title {
+    font-size: 26px;
+  }
+  .ti-cost-summary-callout {
+    padding: 20px;
+  }
+}
+
+.ti-trust-bg {
+  background: #fff;
+}
+
+.ti-trust-img {
+  object-fit: cover;
+  max-height: auto;
+}
+
+.ti-trust-intro {
+  color: #12171a;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.ti-trust-focus {
+  color: var(--primary);
+  font-size: 18px;
+}
+
+.ti-trust-list i {
+  color: var(--primary) !important;
+  font-size: 1.1rem;
+}
+
+.ti-trust-list span {
+  color: #121212;
+  font-size: 18px;
+}
+
+.ti-trust-note {
+  background: #f8f9fa;
+  border-left: 4px solid var(--primary);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.ti-trust-note p {
+  color: #12171a;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 0;
 }

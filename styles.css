@@ -12010,7 +12010,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .ti-cost-section {
-  padding: 60px 0;
+  padding-bottom: 60px;
   background-color: #fff;
 }
 
@@ -12073,9 +12073,6 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 @media (max-width: 767px) {
-  .ti-cost-section {
-    padding: 60px 0;
-  }
   .ti-cost-title {
     font-size: 26px;
   }

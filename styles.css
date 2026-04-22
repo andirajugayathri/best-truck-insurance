@@ -10845,7 +10845,7 @@ h3 {
 
 @media (max-width: 768px) {
   .mcv-page section:not(.bt-hero) h2 {
-    font-size: 1.8rem;
+    font-size: 1.8rem!important;
     text-align: center;
   }
 }
@@ -11877,7 +11877,6 @@ input[type="number"]::-webkit-inner-spin-button {
 .tti-trust-intro-text {
   font-size: 1.15rem;
   line-height: 1.8;
-  margin-bottom: 40px;
 }
 
 .tti-trust-features-grid {
@@ -11967,17 +11966,20 @@ input[type="number"]::-webkit-inner-spin-button {
 
 @media (max-width: 991px) {
 
-  .tti-section,
   .tti-what-is,
   .tti-protect-bg,
   .tti-cost-section,
   .tti-trust-bg,
-  .tti-steps-section {
-    padding: 60px 0 !important;
+  .tti-steps-section,
+  .tti-truck-insurance-quote {
+    padding: 40px 0 !important;
   }
 
   .tractor-cover {
     justify-content: center;
+  }
+  .tti-section {
+    padding-bottom: 40px !important;
   }
 }
 

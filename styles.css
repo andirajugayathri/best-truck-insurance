@@ -11978,9 +11978,12 @@ input[type="number"]::-webkit-inner-spin-button {
   .tractor-cover {
     justify-content: center;
   }
+
   .tti-section {
+    padding-top: 0 !important;
     padding-bottom: 40px !important;
   }
+  
 }
 
 
